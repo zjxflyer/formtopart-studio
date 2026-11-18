@@ -1,0 +1,23 @@
+{
+  "id": "trace-consumer-visibility-before-geometry-edits",
+  "date": "2026-10-17",
+  "scope": "preference",
+  "observation": "The owner approved tracing the full consumer path before speculative position/depth changes and avoiding presence-only visibility claims.",
+  "cause": "Stored objects, project eligibility and rendered appearance can disagree; repeated rebuilds do not isolate which layer failed.",
+  "proposed_rule": "Trace evidence, local coordinates, solved shape, view eligibility, renderer and visible output; preview distinctive contours early, bound diagnosis, use relevant checks and publish after review rather than committing exploration.",
+  "evidence": [
+    "Owner-approved Focused working-skill update: efficient, evidence-led corrections, 2026-10-17",
+    "Vancouver Wood Carving/tools/skill-correction-efficiency-20261017/decision-cases.json",
+    "Vancouver Wood Carving/projects/a202/evidence/procedure-review-20261017.json"
+  ],
+  "verification": {
+    "regression": "not-applicable",
+    "visual": "not-applicable",
+    "instruction_review": "passed"
+  },
+  "behavioral_change": false,
+  "visual_change": false,
+  "basis": "explicit-user-preference",
+  "status": "adopted",
+  "limits": "Instruction-only review, not proof of corrected runtime behavior or an established environment diagnosis. No source-specific axes, IDs or measurements become shared defaults."
+}

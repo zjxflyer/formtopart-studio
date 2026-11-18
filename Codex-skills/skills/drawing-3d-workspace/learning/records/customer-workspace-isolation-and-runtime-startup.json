@@ -1,0 +1,23 @@
+{
+  "id": "customer-workspace-isolation-and-runtime-startup",
+  "scope": "invariant",
+  "observation": "An ordinary Windows launch failed when it relied on agent-injected build-tool paths; customer data also needed an explicit isolation boundary.",
+  "cause": "Runtime and build dependencies were mixed, while project identity and source/view configuration lived in reusable logic.",
+  "proposed_rule": "Separate compiled runtime from explicit builds; validate local executable and server identities without permanent PATH changes. Isolate project models, history, assets and preview/commit/import/export state. Use consistent SQLite backup and preserve originals; a new project stays empty until its own model is reviewed.",
+  "evidence": [
+    "Vancouver Wood Carving/tools/workbench/reports/browser-validation.json",
+    "Vancouver Wood Carving/tools/workbench/reports/migration.json",
+    "Vancouver Wood Carving/tools/skill-v6/instruction-review.md",
+    "Vancouver Wood Carving/skill-packages/effective-version-6/evidence/validation-summary.json"
+  ],
+  "verification": {
+    "regression": "passed",
+    "visual": "not-applicable",
+    "instruction_review": "passed"
+  },
+  "behavioral_change": true,
+  "visual_change": false,
+  "basis": "verified-correction",
+  "status": "adopted",
+  "limits": "Scoped to drawing workspaces, not general Windows maintenance; another real customer PDF remains untested."
+}

@@ -1,0 +1,26 @@
+{
+  "id": "selection-linked-structural-relationship-dimensions",
+  "date": "2026-10-17",
+  "scope": "invariant",
+  "observation": "A shared subject-and-anchor implementation now displays placement measurements through selection in the live app, portable viewer and fallback; a synthetic project uses the same path.",
+  "cause": "A size-only scene and owner-equality filtering could not represent inter-object or datum relationships.",
+  "proposed_rule": "Treat relationship dimensions as shared project annotations, not customer-specific UI patches. Resolve current anchors, prioritize relationships on selection, keep camera alignment explicit, separate size display, preserve uncertainty per measurement and verify actual cross-consumer output without display revisions.",
+  "evidence": [
+    "Vancouver Wood Carving/benchmarks/a202-powder/phase-3-relationship-dimensions-r01/backend-tests.xml",
+    "Vancouver Wood Carving/benchmarks/a202-powder/phase-3-relationship-dimensions-r01/frontend-tests.json",
+    "Vancouver Wood Carving/benchmarks/a202-powder/phase-3-relationship-dimensions-r01/app-tests.json",
+    "Vancouver Wood Carving/benchmarks/a202-powder/phase-3-relationship-dimensions-r01/browser/results.json",
+    "Vancouver Wood Carving/benchmarks/a202-powder/phase-3-relationship-dimensions-r01/visual-review.json",
+    "Vancouver Wood Carving/benchmarks/a202-powder/phase-3-relationship-dimensions-r01/delivery-checks.json"
+  ],
+  "verification": {
+    "regression": "passed",
+    "visual": "passed",
+    "instruction_review": "passed"
+  },
+  "behavioral_change": true,
+  "visual_change": true,
+  "basis": "verified-correction",
+  "status": "adopted",
+  "limits": "Synthetic reuse does not prove automatic interpretation of another customer PDF. Physical-phone opening was not tested. Keep view mappings, fixture IDs, coordinates and measured values in project data."
+}

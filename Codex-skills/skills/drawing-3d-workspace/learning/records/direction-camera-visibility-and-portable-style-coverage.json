@@ -1,0 +1,27 @@
+{
+  "id": "direction-camera-visibility-and-portable-style-coverage",
+  "date": "2026-10-17",
+  "scope": "invariant",
+  "observation": "A direction preset could show an incomplete model when source-view eligibility was reused as geometry visibility; switching to a canonical view could also change framing, and a damaged portable stylesheet could look like missing components.",
+  "cause": "Camera representation, source annotation eligibility, fit behavior and delivered runtime styling were not treated as separate verification concerns.",
+  "proposed_rule": "Separate complete-model geometry visibility from source-view annotation eligibility. Direction changes preserve the current frame scale; Fit is explicit. Validate the actual portable stylesheet and inspect one distinctive affected view before full publication, because runtime presentation failures can masquerade as geometry loss.",
+  "evidence": [
+    "Vancouver Wood Carving/frontend/src/spatial/viewPresets.ts",
+    "Vancouver Wood Carving/frontend/src/spatial/engine.ts",
+    "Vancouver Wood Carving/frontend/src/spatial/portable.ts",
+    "Vancouver Wood Carving/frontend/src/spatial/spatial.css",
+    "Vancouver Wood Carving/benchmarks/a202-powder/phase-3-relationship-dimensions-r01/direction-ui-final.json",
+    "Vancouver Wood Carving/benchmarks/a202-powder/phase-3-relationship-dimensions-r01/direction-live-results.json",
+    "Vancouver Wood Carving/benchmarks/a202-powder/phase-3-relationship-dimensions-r01/direction-browser/live-P4-final.png"
+  ],
+  "verification": {
+    "regression": "passed",
+    "visual": "passed",
+    "instruction_review": "passed"
+  },
+  "behavioral_change": true,
+  "visual_change": true,
+  "basis": "verified-correction",
+  "status": "adopted",
+  "limits": "The rule is reusable; A202 IDs, coordinates and source mappings remain project-local. Browser emulation is not physical-phone testing, and this does not certify fabrication accuracy or customer acceptance."
+}

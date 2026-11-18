@@ -1,0 +1,25 @@
+{
+  "id": "model-relative-orbit-axis-and-pole-verification",
+  "date": "2026-10-18",
+  "scope": "invariant",
+  "observation": "A prior camera-relative drag comparison passed even though the rig transformed the physical orbit axis into a tilted axis; the owner still experienced unwanted tumbling after quick top views.",
+  "cause": "The test oracle cancelled the pose transform in camera-local coordinates and therefore could not establish model-relative yaw or uprightness.",
+  "proposed_rule": "Matching camera-relative motion does not prove consistent model-relative orbit. Verify the physical axis, constant inclination under yaw and pole behavior against an independent unmodified default controller. For the owner's Z-up turntable, horizontal drags always yaw around model Z; exact top/bottom yaw spins within the plane, and inward pitch leaves the pole without a roll jump. Quick presets change pose, not the model coordinate frame, geometry or selection/display state. Mark a pose inactive after manual orbit leaves it.",
+  "evidence": [
+    "Vancouver Wood Carving/frontend/src/spatial/cameraRig.worldZ.test.ts",
+    "Vancouver Wood Carving/benchmarks/a202-powder/world-z-orbit-r03-20261018/regression-before.json",
+    "Vancouver Wood Carving/benchmarks/a202-powder/world-z-orbit-r03-20261018/browser-results.json",
+    "Vancouver Wood Carving/benchmarks/a202-powder/world-z-orbit-r03-20261018/ui-results.json",
+    "Vancouver Wood Carving/benchmarks/a202-powder/world-z-orbit-r03-20261018/visual-review.json"
+  ],
+  "verification": {
+    "regression": "passed",
+    "visual": "passed",
+    "instruction_review": "passed"
+  },
+  "behavioral_change": true,
+  "visual_change": true,
+  "basis": "verified-correction",
+  "status": "adopted",
+  "limits": "Supersedes the camera-local equivalence claim in pose-only-quick-views-preserve-default-orbit; retain that and earlier records as history. Z-up turntable is this owner's selected interaction convention, not a universal requirement for all 3D applications. Phone checks are viewport emulation, not hardware acceptance. No fabrication or source-geometry approval."
+}

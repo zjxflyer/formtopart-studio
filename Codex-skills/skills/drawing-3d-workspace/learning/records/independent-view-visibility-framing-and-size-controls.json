@@ -1,0 +1,25 @@
+{
+  "id": "independent-view-visibility-framing-and-size-controls",
+  "date": "2026-10-18",
+  "scope": "invariant",
+  "observation": "Source camera selection also applied drawing-only include lists and reset the pivot without fitting. A legacy size-display exception made the size checkbox ineffective for unregistered subjects; selecting assemblies mixed their sizes with descendants.",
+  "cause": "Camera pose, geometry inclusion, annotation eligibility and framing were coupled. Size visibility depended on whether relationship records existed rather than on the explicit display switch.",
+  "proposed_rule": "Keep geometry visibility, source annotation eligibility and framing independent. A model camera must not inherit a drawing's component exclusion list. Distinguish deliberate source-view center/fit from pose-only shortcuts according to the owner's confirmed interaction choice. A size switch controls all size overlays consistently, including size-only projects; selected assemblies show their own recorded overall sizes, not descendants or invented measurements. Display selection identity and explain off, empty, hidden and edge-on results. Preserve source-filtered checking representations separately.",
+  "evidence": [
+    "Vancouver Wood Carving/frontend/src/spatial/viewContext.test.ts",
+    "Vancouver Wood Carving/frontend/src/spatial/dimensions.test.ts",
+    "Vancouver Wood Carving/benchmarks/a202-powder/view-size-controls-r01-20261018/browser-results.json",
+    "Vancouver Wood Carving/benchmarks/a202-powder/view-size-controls-r01-20261018/ui-results.json",
+    "Vancouver Wood Carving/benchmarks/a202-powder/view-size-controls-r01-20261018/visual-review.json"
+  ],
+  "verification": {
+    "regression": "passed",
+    "visual": "passed",
+    "instruction_review": "passed"
+  },
+  "behavioral_change": true,
+  "visual_change": true,
+  "basis": "verified-correction",
+  "status": "adopted",
+  "limits": "Source camera centering/fitting and assembly-own size defaults are confirmed owner preferences, not universal CAD conventions. Supersedes the overly broad preserve-scale-for-all-presets wording; earlier lessons remain unchanged. Complete-model inclusion does not imply every object is unoccluded. Mobile verification is viewport emulation only. No source reconstruction, manufacturer sizing, fabrication approval or frozen-version update. Project mappings and values remain local."
+}

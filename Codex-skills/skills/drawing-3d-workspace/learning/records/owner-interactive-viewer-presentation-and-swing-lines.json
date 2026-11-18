@@ -1,0 +1,27 @@
+{
+  "id": "owner-interactive-viewer-presentation-and-swing-lines",
+  "scope": "preference",
+  "observation": "The owner confirmed a clean viewer and renamed the display-only door/drawer symbol checkbox.",
+  "cause": "An ambiguous caption could imply drawer rotation or an opening animation; display state was not a model edit.",
+  "proposed_rule": "Default to white faces/black outlines, optional material colors, blue dimensions and yellow provisional/dependent dimension numbers. Label the independent default-off control Swing lines / 柜门／抽屉开启线, with a tooltip explaining door swing, drawer pull-out and display only, not animation. Preserve internal fields and static drawing symbol requirements.",
+  "evidence": [
+    "Owner-approved implementation plan in the current conversation, 2026-10-17",
+    "Vancouver Wood Carving/tools/workbench/swing-lines/reports/release.json",
+    "Vancouver Wood Carving/tools/skill-v6/instruction-review.md",
+    "Vancouver Wood Carving/skill-packages/effective-version-6/evidence/validation-summary.json"
+  ],
+  "verification": {
+    "regression": "passed",
+    "visual": "not-applicable",
+    "instruction_review": "passed"
+  },
+  "behavioral_change": true,
+  "visual_change": false,
+  "basis": "explicit-user-preference",
+  "status": "adopted",
+  "supersedes": {
+    "record": "project opening-marks-display lesson",
+    "scope": "Only the old checkbox caption; keep default off and historical evidence unchanged."
+  },
+  "limits": "Owner interface preference, not universal mechanical terminology. No new rendered output is produced by this skill update."
+}

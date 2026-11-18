@@ -1,0 +1,26 @@
+{
+  "id": "pose-only-quick-views-preserve-default-orbit",
+  "date": "2026-10-18",
+  "scope": "invariant",
+  "observation": "The owner requires a shortcut that only squares the existing 3D model; source view IDs and changing camera-up interaction axes caused misleading view state and changed drag behavior.",
+  "cause": "Source evidence views, geometric inspection poses, orbit input coordinates and annotation eligibility were conflated.",
+  "proposed_rule": "Keep source views and generic orthographic quick views distinct. A quick snap changes only the pose, retaining default orbit input behavior, zoom/frustum scale, orbit pivot, selection and display settings. Retain the complete mesh set subject to existing hide/isolate and physical occlusion. Use a stable interaction frame even for rolled top and bottom views, and test actual horizontal/vertical drags against default 3D. Preserve correct handedness of underside projections. Do not claim behavioral verification from camera vectors alone.",
+  "evidence": [
+    "Vancouver Wood Carving/frontend/src/spatial/cameraRig.ts",
+    "Vancouver Wood Carving/frontend/src/spatial/cameraRig.test.ts",
+    "Vancouver Wood Carving/benchmarks/a202-powder/direction-snap-r02-20261018/browser-results.json",
+    "Vancouver Wood Carving/benchmarks/a202-powder/direction-snap-r02-20261018/browser-ui-results.json",
+    "Vancouver Wood Carving/benchmarks/a202-powder/direction-snap-r02-20261018/visual-review.json",
+    "Vancouver Wood Carving/benchmarks/a202-powder/direction-snap-r02-20261018/preservation.json"
+  ],
+  "verification": {
+    "regression": "passed",
+    "visual": "passed",
+    "instruction_review": "passed"
+  },
+  "behavioral_change": true,
+  "visual_change": true,
+  "basis": "verified-correction",
+  "status": "adopted",
+  "limits": "Supersedes conflation of source-linked elevations with generic quick faces; earlier lesson records remain historical. A202 mappings stay project-local. Browser mouse tests compare exact undamped response and retain production default damping; phone viewport emulation is not physical-device testing. Source accuracy and fabrication approval are outside this correction."
+}

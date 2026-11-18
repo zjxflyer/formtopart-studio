@@ -1,0 +1,23 @@
+{
+  "id": "project-local-direction-camera-presets",
+  "date": "2026-10-17",
+  "scope": "invariant",
+  "observation": "A shared 3D viewer needs quick inspection of source elevations, rotated plan directions and true underside directions without adding model geometry.",
+  "cause": "A single axonometric preset and source-view dropdown make repeated directional inspection slower and encourage ad-hoc camera changes.",
+  "proposed_rule": "Treat direction presets as camera representations, not geometry or evidence. Use project-local axes and source-defined elevation mappings, never geographic north; bottom presets are true underside views and annotations appear only when valid for the selected preset. Share the resolver across live 3D, offline HTML and fallback, and keep camera changes out of revision history.",
+  "evidence": [
+    "Vancouver Wood Carving/frontend/src/spatial/viewPresets.ts",
+    "Vancouver Wood Carving/frontend/src/spatial/viewPresets.test.ts",
+    "Vancouver Wood Carving/benchmarks/a202-powder/phase-3-relationship-dimensions-r01/scene.json"
+  ],
+  "verification": {
+    "regression": "passed",
+    "visual": "passed",
+    "instruction_review": "passed"
+  },
+  "behavioral_change": true,
+  "visual_change": true,
+  "basis": "explicit-user-preference",
+  "status": "adopted",
+  "limits": "A202 has four source elevations; other projects expose the source elevations they define. Phone emulation is not physical-phone testing. This rule does not interpret unseen PDFs or certify fabrication output."
+}

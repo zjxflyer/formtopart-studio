@@ -1,0 +1,23 @@
+{
+  "id": "source-owned-spatial-annotation-delivery",
+  "scope": "invariant",
+  "observation": "Interactive and portable consumers needed the same source-owned symbol layer and display rules.",
+  "cause": "Independent consumers can drift even when solved model records remain identical.",
+  "proposed_rule": "Keep physical geometry separate from nonphysical annotations. Apply owner-aware facing, project view rules, hide/isolate and normal depth occlusion. Verify enabled/disabled outputs, offline HTML and fallback, without changing geometry or revisions.",
+  "evidence": [
+    "Vancouver Wood Carving/tools/workbench/opening-marks/reports/browser-validation.json",
+    "Vancouver Wood Carving/tools/workbench/opening-marks/reports/visual-review.json",
+    "Vancouver Wood Carving/tools/skill-v6/instruction-review.md",
+    "Vancouver Wood Carving/skill-packages/effective-version-6/evidence/validation-summary.json"
+  ],
+  "verification": {
+    "regression": "passed",
+    "visual": "not-applicable",
+    "instruction_review": "passed"
+  },
+  "behavioral_change": true,
+  "visual_change": false,
+  "basis": "verified-correction",
+  "status": "adopted",
+  "limits": "No new geometry or mechanical-animation inference; project-specific axes and symbol counts are not shared rules."
+}
