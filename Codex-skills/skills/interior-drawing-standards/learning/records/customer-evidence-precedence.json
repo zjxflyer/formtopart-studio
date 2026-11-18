@@ -1,0 +1,14 @@
+{
+  "id": "customer-evidence-precedence",
+  "scope": "preference",
+  "observation": "The owner wants simplified drawings to remain recognizably aligned with each customer's symbol language across wood, stone, mirror, metal, and other materials.",
+  "cause": "Universal material-based marks can overwrite customer-specific operation symbols and can be mistaken for physical geometry.",
+  "proposed_rule": "Use customer legends and coordinated project evidence first, preserve symbol appearance separately from meaning, and use standards to interpret or flag issues rather than silently redesign.",
+  "evidence": ["Owner-approved Two Complementary Skills plan, 2026-10-08"],
+  "limitations": ["Mandatory applicable requirements may require a separate compliance flag", "Project-specific meanings remain in the project"],
+  "verification": {"regression": "passed", "visual": "not-applicable", "instruction_review": "passed"},
+  "basis": "explicit-user-preference",
+  "status": "adopted",
+  "behavioral_change": true,
+  "visual_change": false
+}
