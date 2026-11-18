@@ -10,15 +10,17 @@ Turn customer PDF drawings into a reviewable design workspace for interiors, cab
 ![Windows x64](https://img.shields.io/badge/platform-Windows%20x64-0078D4)
 ![6 Codex skills](https://img.shields.io/badge/Codex-6%20drawing%20skills-0F766E)
 
-**[Download for Windows](https://github.com/zjxflyer/formtopart-studio/releases/latest/download/FormToPart-Studio.exe)** · **[All releases](https://github.com/zjxflyer/formtopart-studio/releases)** · **[Codex skills](#six-codex-skills)** · **[Workflow handbook](Codex-skills/handbook/Drawing-Workflow-Handbook.pdf)**
+**[Windows app](https://github.com/zjxflyer/formtopart-studio/releases/latest/download/FormToPart-Studio.exe)** · **[Skills ZIP](https://github.com/zjxflyer/formtopart-studio/releases/latest/download/Codex-Drawing-Workflow-v7.zip)** · **[Source ZIP](https://github.com/zjxflyer/formtopart-studio/releases/latest/download/FormToPart-Studio-v0.8.29-Source.zip)** · **[Workflow handbook](Codex-skills/handbook/Drawing-Workflow-Handbook.pdf)**
 
-<a href="https://github.com/zjxflyer/formtopart-studio/blob/main/FormToPart-Studio-Product-Overview.mp4">
+<a href="https://github.com/user-attachments/assets/0d0b28b5-ad4d-494a-b571-b616db186abf">
   <img src="docs/images/product-overview.jpg" alt="Watch the FormToPart Studio product overview: PDF drawings, design review, 3D and cutting lists" width="960">
 </a>
 
-**[Watch the 54-second product overview](https://github.com/zjxflyer/formtopart-studio/blob/main/FormToPart-Studio-Product-Overview.mp4)** · 1920 × 1080
+**54-second product overview** · 1920 × 1080 · **[Download video](https://github.com/zjxflyer/formtopart-studio/releases/latest/download/FormToPart-Studio-Product-Overview.mp4)**
 
 </div>
+
+https://github.com/user-attachments/assets/0d0b28b5-ad4d-494a-b571-b616db186abf
 
 ## From drawings to a shared design review
 
@@ -34,14 +36,24 @@ FormToPart Studio brings source PDFs, 2D drawings, editable 3D models, board mat
 
 <table>
   <tr>
-    <td width="50%"><img src="docs/images/design-review.jpg" alt="FormToPart Studio design review workspace" width="100%"></td>
-    <td width="50%"><img src="docs/images/cutting-list.jpg" alt="FormToPart Studio materials and cutting list workspace" width="100%"></td>
+    <td width="50%"><a href="docs/images/design-review.jpg"><img src="docs/images/design-review.jpg" alt="FormToPart Studio 3D model parts and dimensions" width="100%"></a></td>
+    <td width="50%"><a href="docs/images/cutting-list.jpg"><img src="docs/images/cutting-list.jpg" alt="FormToPart Studio materials and cutting list workspace" width="100%"></a></td>
   </tr>
   <tr>
-    <td align="center">Review the design and its source drawings</td>
+    <td align="center">Inspect model parts and dimensions</td>
     <td align="center">Inspect materials and export the cutting list</td>
   </tr>
 </table>
+
+## Choose your download
+
+| Download | Start here if you want to… |
+| --- | --- |
+| **[Windows app](https://github.com/zjxflyer/formtopart-studio/releases/latest/download/FormToPart-Studio.exe)** | Run Studio and explore the built-in demo. The prebuilt app does not require Python, Node.js or the development build tools. |
+| **[Codex skills ZIP](https://github.com/zjxflyer/formtopart-studio/releases/latest/download/Codex-Drawing-Workflow-v7.zip)** | Use the six drawing skills in Codex with your own source files. See [installation below](#start-with-the-skills). |
+| **[Source ZIP](https://github.com/zjxflyer/formtopart-studio/releases/latest/download/FormToPart-Studio-v0.8.29-Source.zip)** | Inspect the complete published source or build Studio on Windows. See [build instructions](#build-on-windows) and [licensing](#review-scope-attribution-and-licensing). |
+
+See **[all releases and assets](https://github.com/zjxflyer/formtopart-studio/releases)** for release notes, checksums and the downloadable product video.
 
 ## Try the Windows app
 
@@ -79,7 +91,27 @@ The **[Drawing Workflow — Effective Version 7](Codex-skills/README.md)** packa
 
 ### Start with the skills
 
-Read the **[handbook PDF](Codex-skills/handbook/Drawing-Workflow-Handbook.pdf)** or its **[editable Markdown version](Codex-skills/handbook/Drawing-Workflow-Handbook.md)**. Keep the complete `Codex-skills/` package at a stable location and follow **[installation and restoration](Codex-skills/RESTORE.md)** to install it into your host's skill discovery directory.
+**Requirements:** Codex and Python 3.10+ for the verification and installation helper.
+
+1. Download **[Codex-Drawing-Workflow-v7.zip](https://github.com/zjxflyer/formtopart-studio/releases/latest/download/Codex-Drawing-Workflow-v7.zip)** and extract the complete package to a stable folder.
+2. Open the extracted folder in Codex. Read the **[handbook PDF](Codex-skills/handbook/Drawing-Workflow-Handbook.pdf)** or its **[editable Markdown version](Codex-skills/handbook/Drawing-Workflow-Handbook.md)**.
+3. Paste the following request into Codex to install with the package's **[guarded installation procedure](Codex-skills/RESTORE.md)**:
+
+```text
+Install the six Codex skills from the extracted Codex-skills package in this
+folder. Read its README.md, manifest.json and RESTORE.md first. Verify the
+bundle fingerprint:
+2e81cf779f9af8ff594bdbed35358e13cc72c3ecde92858ed0c8084b641732ae
+
+Discover the correct skill installation directory. Inspect existing skills
+and capture their current fingerprints. Use package-tools/bundle_tool.py
+to install with a new verified external backup. Keep the package,
+installation directory and backup separate and non-overlapping.
+Preserve the frozen package, unrelated skills, existing learning history
+and in-flight project data. Stop and report any failed check or active lock.
+Verify the installed fingerprints and explain how to start a fresh chat
+with $drawing-workflow.
+```
 
 You can verify the frozen package from this repository's root with Python 3.10+:
 
@@ -130,7 +162,7 @@ Get-Content -LiteralPath $receipt
 
 ## Verification
 
-The [recorded build verification](BUILD-VERIFICATION.md) documents **21 native self-checks** and **39 startup, navigation and package checks** for release 0.8.29. It also records earlier source-replacement, sample-upgrade and export checks. These are the existing release results; this README does not represent a new runtime test.
+[Recorded release verification](BUILD-VERIFICATION.md) documents **21 native self-checks** and **39 startup, navigation and package checks** for release 0.8.29, together with earlier source-replacement, sample-upgrade and export checks.
 
 The Codex package has its own [validation summary and limitations](Codex-skills/evidence/validation-summary.json). Workflow tests demonstrate the tested workflow behavior and do not establish customer acceptance or error-free drawing generation.
 
