@@ -12,9 +12,13 @@ Turn customer PDF drawings into a reviewable design workspace for interiors, cab
 
 **[Windows app](https://github.com/zjxflyer/formtopart-studio/releases/latest/download/FormToPart-Studio.exe)** · **[Skills ZIP](https://github.com/zjxflyer/formtopart-studio/releases/latest/download/Codex-Drawing-Workflow-v7.zip)** · **[Source ZIP](https://github.com/zjxflyer/formtopart-studio/releases/latest/download/FormToPart-Studio-v0.8.29-Source.zip)** · **[Workflow handbook](Codex-skills/handbook/Drawing-Workflow-Handbook.pdf)**
 
+**[▶ Watch with sound and captions](https://zjxflyer.github.io/formtopart-studio/)**
+
 </div>
 
-https://github.com/user-attachments/assets/0d0b28b5-ad4d-494a-b571-b616db186abf
+Open the watch page and press Play for narration with sound enabled. GitHub's inline preview starts muted.
+
+https://github.com/user-attachments/assets/00cc8bf9-1f6e-4958-832f-cdd8cd4804a8
 
 ## From drawings to a shared design review
 
