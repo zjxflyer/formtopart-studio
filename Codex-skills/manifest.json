@@ -1,0 +1,699 @@
+{
+  "schema_version": 1,
+  "name": "Effective Version 7",
+  "created": "2026-10-22",
+  "status": "frozen-restoration-point",
+  "fingerprint_algorithm": "managed-path-sha256-v1",
+  "canonical_skill_names": [
+    "drawing-workflow",
+    "elevation-create-and-audit",
+    "drawing-add-objects",
+    "drawing-separate-objects",
+    "interior-drawing-standards",
+    "drawing-3d-workspace"
+  ],
+  "skills": {
+    "drawing-workflow": {
+      "fingerprint": "6ba319c1f2cda478af32b83705cdb72b3f7482c5803070e2529af6965071c2fc",
+      "managed_file_count": 17
+    },
+    "elevation-create-and-audit": {
+      "fingerprint": "559268bdb8ba2b5653a0e4730083416a28f8e73456621c3c231f13793d55ae08",
+      "managed_file_count": 52
+    },
+    "drawing-add-objects": {
+      "fingerprint": "b8a04c861663134e993a6bb73243ed30fd7792c3bc87063ae7f81f0f9b18e923",
+      "managed_file_count": 8
+    },
+    "drawing-separate-objects": {
+      "fingerprint": "e60e421a04282d3ba0a9be2d93325459e022a895d271cfc081ce3a777e551e94",
+      "managed_file_count": 8
+    },
+    "interior-drawing-standards": {
+      "fingerprint": "e30770bb1c9eb9fd511275f11885f78bfb294dbe97d0b0cb5d7a60898cacc815",
+      "managed_file_count": 14
+    },
+    "drawing-3d-workspace": {
+      "fingerprint": "a2ad37d7f7f504515c5dfd69b0c3e74404696e48bfc279336d409037a4f859e5",
+      "managed_file_count": 16
+    }
+  },
+  "files": [
+    {
+      "path": "KEEP-MANIFEST.json",
+      "sha256": "3e9a7455fffe75b5f6cc125268b558d6906e759a84831d4e53c31776b76a996f",
+      "bytes": 1267
+    },
+    {
+      "path": "README.md",
+      "sha256": "e6b2c665390fa00da8e3160d4621c4f2fa9e3aa0a6ea4382844e75a7257a4974",
+      "bytes": 2543
+    },
+    {
+      "path": "RESTORE.md",
+      "sha256": "88bc66dab2024f5b5dc167eb16e6b581e2bf1fa9224073b4069c9aad5751e84f",
+      "bytes": 4423
+    },
+    {
+      "path": "evidence/fresh-context-smoke.json",
+      "sha256": "269bb426ffc0d7868357c7647a943e629d345e131924c085135e570db79d7788",
+      "bytes": 322839
+    },
+    {
+      "path": "evidence/handbook-navigation-layout.json",
+      "sha256": "0a3b5e87e45a6699fb0d1c16760b4708ed567ec250fe2d2228387989a83ff3f3",
+      "bytes": 2977
+    },
+    {
+      "path": "evidence/independent-export-decisions.json",
+      "sha256": "62f40427b6aee7a077c398491b766a67ebd1c6f19e45b0434a3077194945f582",
+      "bytes": 2166
+    },
+    {
+      "path": "evidence/independent-review.json",
+      "sha256": "3ad7ea0678364e72a4b019e3e2247b82b5a4190f4058745005728b015aa72cba",
+      "bytes": 1413
+    },
+    {
+      "path": "evidence/preserved-anchor-check.json",
+      "sha256": "040a3778d83f1ec21124a39195dfc2c3c07f09349d6f15d269f04c5762f287e9",
+      "bytes": 205
+    },
+    {
+      "path": "evidence/validation-summary.json",
+      "sha256": "93315140d3b28372404aa7c6f70fb0044b1f90bbdc2f64c0a5b05aa545e0358b",
+      "bytes": 1644
+    },
+    {
+      "path": "evidence/workflow-tests.json",
+      "sha256": "6ae795511eaf92cd46d6863e2a4db35b118a426a26295045a8bc1d8d8acb2efb",
+      "bytes": 619
+    },
+    {
+      "path": "handbook/Drawing-Workflow-Handbook.md",
+      "sha256": "7dd8947837dc08e22c74245fe213893a2f56aba6cfce7e09082dc6fb378a349f",
+      "bytes": 54915
+    },
+    {
+      "path": "handbook/Drawing-Workflow-Handbook.pdf",
+      "sha256": "7ab05b07ea68c9a2752b9e4ecc5d32eb35e68e923d09be687fd0165eada98412",
+      "bytes": 504612
+    },
+    {
+      "path": "package-tools/README.md",
+      "sha256": "49c41f2c147762a6fd526165910deef2063d3f5a96996ab88c76331f34841587",
+      "bytes": 8363
+    },
+    {
+      "path": "package-tools/VALIDATION.json",
+      "sha256": "b5cec8fd02f851aa5cd042feab5221c662196a13178e51e98277ffd891f4e20a",
+      "bytes": 1225
+    },
+    {
+      "path": "package-tools/bundle_tool.py",
+      "sha256": "a10f516312af57573f7a60d3718db7ae26bf22e71d494a41988942098a63f4ad",
+      "bytes": 26538
+    },
+    {
+      "path": "package-tools/test_bundle_tool.py",
+      "sha256": "21a40940e1cb928035861b274218056a54def6e780bac9445acf1a0ccd403305",
+      "bytes": 17466
+    },
+    {
+      "path": "skills/drawing-3d-workspace/SKILL.md",
+      "sha256": "8218e9178d4d36cb785312b2c06ce4ef47f116694b9c00ea4676125ee2848ee2",
+      "bytes": 5097
+    },
+    {
+      "path": "skills/drawing-3d-workspace/agents/openai.yaml",
+      "sha256": "6ed242eb7b15013199cc7cede1958ebe8972f84fd9943b024006a739b545bbaf",
+      "bytes": 309
+    },
+    {
+      "path": "skills/drawing-3d-workspace/learning/records/customer-workspace-isolation-and-runtime-startup.json",
+      "sha256": "8005a61d1dcad49a4dd524e6c6d8251b5a81ff67cd7e9f75382fbd9e43a0ff49",
+      "bytes": 1436
+    },
+    {
+      "path": "skills/drawing-3d-workspace/learning/records/direction-camera-visibility-and-portable-style-coverage.json",
+      "sha256": "a1add5f96ce606282b646d31c27c7958030d75c2159eb3ea98427172c4d1a1f3",
+      "bytes": 1968
+    },
+    {
+      "path": "skills/drawing-3d-workspace/learning/records/independent-view-visibility-framing-and-size-controls.json",
+      "sha256": "7a9ab75d8bcb676609be9e24f8598981d211316069bce6c0c42a0aaa5db850e9",
+      "bytes": 2410
+    },
+    {
+      "path": "skills/drawing-3d-workspace/learning/records/model-relative-orbit-axis-and-pole-verification.json",
+      "sha256": "45fbac6eb930ef9cf0a21391c63cafe59d49bf0660c99c8fc6eee41536535451",
+      "bytes": 2126
+    },
+    {
+      "path": "skills/drawing-3d-workspace/learning/records/owner-interactive-viewer-presentation-and-swing-lines.json",
+      "sha256": "d542424f69baa1d9160c0b422118ac28e8670031e49aac59bffe9a0b9adf3a3f",
+      "bytes": 1642
+    },
+    {
+      "path": "skills/drawing-3d-workspace/learning/records/pose-only-quick-views-preserve-default-orbit.json",
+      "sha256": "597e617f97d6c44896a65f7836fab00533f983d372b1311e87e31ff02f3d6227",
+      "bytes": 2172
+    },
+    {
+      "path": "skills/drawing-3d-workspace/learning/records/project-local-direction-camera-presets.json",
+      "sha256": "083cfe71905e6421e268a81155369eda4b8d0872a1a7697830302d448ddf9624",
+      "bytes": 1527
+    },
+    {
+      "path": "skills/drawing-3d-workspace/learning/records/selection-linked-structural-relationship-dimensions.json",
+      "sha256": "228a0276c4fd70c29fe13a901e51ee980cd48d5417b2df5d744decbbdc73a15e",
+      "bytes": 1884
+    },
+    {
+      "path": "skills/drawing-3d-workspace/learning/records/source-owned-spatial-annotation-delivery.json",
+      "sha256": "e45c547a938e9d6d7f631f06ea2e56a4f66d3273f1fa2df14bc7408759cc399d",
+      "bytes": 1308
+    },
+    {
+      "path": "skills/drawing-3d-workspace/learning/records/trace-consumer-visibility-before-geometry-edits.json",
+      "sha256": "9e11347e6118f63303576a2c094e3b2d0ce15c718a275016bbc54f62150dee21",
+      "bytes": 1395
+    },
+    {
+      "path": "skills/drawing-3d-workspace/references/projects-and-startup.md",
+      "sha256": "dabe7dd36637674773e2aa0b145290d2d26c7a6d1b3de25c386ce3e7b5fd62cd",
+      "bytes": 2829
+    },
+    {
+      "path": "skills/drawing-3d-workspace/references/spatial-model.md",
+      "sha256": "932518790f36ce698b25b31a3eb0b7afd6b3fc8e371808e2e6aaa0b267242b70",
+      "bytes": 5812
+    },
+    {
+      "path": "skills/drawing-3d-workspace/references/verification.md",
+      "sha256": "27f2c2b6bee61268357efcc0115bcb3bac4afb7ea404d84cb82477c72115237d",
+      "bytes": 5135
+    },
+    {
+      "path": "skills/drawing-3d-workspace/references/viewing-and-export.md",
+      "sha256": "2779302b090e9716e67b962fee123432aa0c1242f47ec50d5496ffffea89a14b",
+      "bytes": 4319
+    },
+    {
+      "path": "skills/drawing-add-objects/SKILL.md",
+      "sha256": "9033b8680443010d1ff58b54e3d478d688b65495eb72b143a401f9dd92884245",
+      "bytes": 2010
+    },
+    {
+      "path": "skills/drawing-add-objects/agents/openai.yaml",
+      "sha256": "cdbb2512aa2ae5ae75979e6a487131dbe881ee5af9780efa86c5c4c527f9546b",
+      "bytes": 269
+    },
+    {
+      "path": "skills/drawing-add-objects/learning/limitations.json",
+      "sha256": "6965d1f47519c7a349f035fa6787019ccc7aecd95ed1e61045e7dca53c5ac62e",
+      "bytes": 415
+    },
+    {
+      "path": "skills/drawing-add-objects/learning/project-examples/a200-partition.json",
+      "sha256": "6dcc81d3ba8fa941f6f3ff624ef8ca498cb7e04325f0e2a4247eb0846875958c",
+      "bytes": 816
+    },
+    {
+      "path": "skills/drawing-add-objects/learning/reusable-lessons.json",
+      "sha256": "8c31063630d86330ba185674681d3bfe917de7b806af2d4c02de7e77077700ec",
+      "bytes": 885
+    },
+    {
+      "path": "skills/drawing-add-objects/references/validation.md",
+      "sha256": "e1a6816665e5fe37ce0c071559f4f554bbf924f0a51c5a8dac71c499bd625433",
+      "bytes": 2041
+    },
+    {
+      "path": "skills/drawing-add-objects/references/workflow.md",
+      "sha256": "0a3b94e7613ff0a8d991ffab3e0297bd0d254327978f02c5dda8d1679567a796",
+      "bytes": 2720
+    },
+    {
+      "path": "skills/drawing-add-objects/scripts/validate_cases.py",
+      "sha256": "e74d1a60a64bb2ecc9d678184191a36d1727bbcca160fc949d722d329d0fd65d",
+      "bytes": 5144
+    },
+    {
+      "path": "skills/drawing-separate-objects/SKILL.md",
+      "sha256": "b5a5a46d16408eb64ea130f12125a6290eee9ee08e50953264e754eb310d2466",
+      "bytes": 1976
+    },
+    {
+      "path": "skills/drawing-separate-objects/agents/openai.yaml",
+      "sha256": "ded1cb6ea722faf5c04c440c0906a4f238071db5ad39ca907e1424684578f20d",
+      "bytes": 295
+    },
+    {
+      "path": "skills/drawing-separate-objects/learning/limitations.json",
+      "sha256": "cc5711afffe75d0c440ba951d759c99a2e049f02dec96ae007d5041cb9016cb1",
+      "bytes": 597
+    },
+    {
+      "path": "skills/drawing-separate-objects/learning/project-examples/a200-left-cabinet.json",
+      "sha256": "f38064e40195a5cbf722adc213f1de95929cd6b44bf307453b7cf76086f5380b",
+      "bytes": 739
+    },
+    {
+      "path": "skills/drawing-separate-objects/learning/reusable-lessons.json",
+      "sha256": "742edd3754f4919f033c67e8c4fe7aa932f76a1c88dce7b8224d8219374c0f05",
+      "bytes": 868
+    },
+    {
+      "path": "skills/drawing-separate-objects/references/validation.md",
+      "sha256": "7c23dfad61d5062fe771f717712ecd34ccc274f1326afed39ee13a7752c32c64",
+      "bytes": 1980
+    },
+    {
+      "path": "skills/drawing-separate-objects/references/workflow.md",
+      "sha256": "0b53221f416a89a65887160a7983d0a4aa0fd9bde1e9da984c849d28e240e345",
+      "bytes": 2718
+    },
+    {
+      "path": "skills/drawing-separate-objects/scripts/validate_cases.py",
+      "sha256": "20fc3905286ca5d51f046233eaa2a02d31468a3bac47e62907c108c3888e47f2",
+      "bytes": 5775
+    },
+    {
+      "path": "skills/drawing-workflow/SKILL.md",
+      "sha256": "22beec9ff56dad3426b4da4fa93ff99209fa5051f3b6daf4ea8c4a6c45ce9c05",
+      "bytes": 2810
+    },
+    {
+      "path": "skills/drawing-workflow/agents/openai.yaml",
+      "sha256": "341378c4bd4d483d7c2eeea8f89e0335968dbbae02d5e48e4a2a0c4a895bb6fb",
+      "bytes": 310
+    },
+    {
+      "path": "skills/drawing-workflow/learning/records/contextual-coordinator-todo-register.json",
+      "sha256": "89a5f62ec7fd5b843149375a0211d6c792b2467c0967d8d27a277c0f14596e2b",
+      "bytes": 1377
+    },
+    {
+      "path": "skills/drawing-workflow/learning/records/portable-roles-and-owner-round-profile.json",
+      "sha256": "c532a72a6b0fd99369ca10c2224bcff7e4c01c8568e23d2a0807d60ec921e8b6",
+      "bytes": 1077
+    },
+    {
+      "path": "skills/drawing-workflow/references/delivery.md",
+      "sha256": "c428f54f39b7d32a3c12c28f7be64f3c6d2ac7d27ccc30358af8bd70c11c0333",
+      "bytes": 2384
+    },
+    {
+      "path": "skills/drawing-workflow/references/learning.md",
+      "sha256": "273357984e848a864a1d5baa2ba7b40e03557603a109bf42b86dbbd2b1528ffb",
+      "bytes": 2283
+    },
+    {
+      "path": "skills/drawing-workflow/references/preservation.md",
+      "sha256": "0ebe71e2d332035d37dd5f6c070c206924542c6691b488ccb520f0deff82e9fb",
+      "bytes": 2084
+    },
+    {
+      "path": "skills/drawing-workflow/references/project-state.md",
+      "sha256": "a3f15e152a5e876b1c9bfc788c11665c5e82e7fe91257a4d9257310bf86133ff",
+      "bytes": 22103
+    },
+    {
+      "path": "skills/drawing-workflow/references/roles/check.md",
+      "sha256": "fb033d23a821792d316eef4d2071339ac741d71f446d3b0d51d452cf2084cbdc",
+      "bytes": 2444
+    },
+    {
+      "path": "skills/drawing-workflow/references/roles/coordinate.md",
+      "sha256": "6e98bf69f3a7a996a86a5fc4fe06e8d5031acab532e45abfc13804614dccdba4",
+      "bytes": 4854
+    },
+    {
+      "path": "skills/drawing-workflow/references/roles/create.md",
+      "sha256": "d3b8bd71e4fb2b290c6fa3009b0097e16e78fe333c76909ab01721efd31ea7ab",
+      "bytes": 2611
+    },
+    {
+      "path": "skills/drawing-workflow/references/roles/summarize.md",
+      "sha256": "5dd2db3ce913dc2a3e89169ce4cd6df3f591a5924773c00b0ae38e7b5012c83e",
+      "bytes": 1687
+    },
+    {
+      "path": "skills/drawing-workflow/references/todo-list.md",
+      "sha256": "395928ee9c44736bd470e660cce4ccb6c0b2e35c8abdb6843bb0c80abf1a7048",
+      "bytes": 11840
+    },
+    {
+      "path": "skills/drawing-workflow/references/workflow.md",
+      "sha256": "76a317a80458e3eaaabc13ce3ae88b53fc301273bd6abe9bcbfefa9efeefc987",
+      "bytes": 4673
+    },
+    {
+      "path": "skills/drawing-workflow/scripts/test_workflow.py",
+      "sha256": "7c9d14cbcf67a93f5e4ef24b13a24a0da45071b316a6ca5d2f1487fb57033fd6",
+      "bytes": 38437
+    },
+    {
+      "path": "skills/drawing-workflow/scripts/workflow.py",
+      "sha256": "6c0c2924b6ee56419715d652c8b1e113eb529fbf0d76ccc07526d959e14c8d82",
+      "bytes": 48618
+    },
+    {
+      "path": "skills/drawing-workflow/templates/project.json",
+      "sha256": "c94e0f0cbed2a55ec5e20f0ba912491cc44cc5c0ba0d65e5614061489130624e",
+      "bytes": 445
+    },
+    {
+      "path": "skills/elevation-create-and-audit/SKILL.md",
+      "sha256": "e83b401b3f93e1933c3f10ff8cc01f92fb05e08f65ef16642819f71175d9dbcf",
+      "bytes": 6608
+    },
+    {
+      "path": "skills/elevation-create-and-audit/VALIDATION.md",
+      "sha256": "4315265fd4fa39e84f3027505578849e2cdc47d7b787dc0a905540c6da97c7c8",
+      "bytes": 4333
+    },
+    {
+      "path": "skills/elevation-create-and-audit/learning/records/a200-431-assembly-container-floor-gaps.json",
+      "sha256": "bc736a825dabfcdbc4d5b1cca3890c1f5429cce610fcafbd45522497aba32d41",
+      "bytes": 2734
+    },
+    {
+      "path": "skills/elevation-create-and-audit/learning/records/a200-431-cross-view-stepped-base-wall-base.json",
+      "sha256": "32ddf4f9d64a7e33f23d9236232e0715baae76c7c1f2ee95032bec4358121324",
+      "bytes": 3040
+    },
+    {
+      "path": "skills/elevation-create-and-audit/learning/records/a200-431-floor-gap-evidence-path-correction.json",
+      "sha256": "93dc37da7af30cef2e9ea849ad3a5cd13746cf1c9a534a795ef0e65ba58e2a0e",
+      "bytes": 1865
+    },
+    {
+      "path": "skills/elevation-create-and-audit/learning/records/a200-431-unlabeled-witness-contour-symbol-audit.json",
+      "sha256": "ffbe1a8b3ab286097e6438903aca10b7946e21c8d68a0620988a2eea1cac7e68",
+      "bytes": 1726
+    },
+    {
+      "path": "skills/elevation-create-and-audit/learning/records/bounded-correction-staging-and-proportional-audit.json",
+      "sha256": "3957ef65066c486795f13611ce8f206a5b639010d8e2e4edf97136375fabd336",
+      "bytes": 1404
+    },
+    {
+      "path": "skills/elevation-create-and-audit/learning/records/compact-view-references-in-coordinated-plans.json",
+      "sha256": "3b137f8399ef0c77efe9a012fa32e0d41a727d2fa505c0e119cda739ba97aee6",
+      "bytes": 2145
+    },
+    {
+      "path": "skills/elevation-create-and-audit/learning/records/cross-consumer-native-symbol-coverage.json",
+      "sha256": "e4f13d8a6dc13a74ed02ead9860c38b672b4ff63c83b925b4b5cf21a5ee7dc38",
+      "bytes": 1257
+    },
+    {
+      "path": "skills/elevation-create-and-audit/learning/records/customer-line-taxonomy-preference.json",
+      "sha256": "c3311f9d79890ffff44e4f445989e4a5e8287c41ad3c6e773235f5d4e11e7740",
+      "bytes": 1367
+    },
+    {
+      "path": "skills/elevation-create-and-audit/learning/records/dimensioned-fixtures-retain-source-silhouette.json",
+      "sha256": "c6ade2394950e95d9bad86d44f113e4782dca1b4b2e66eb3ee5da60c46f2746a",
+      "bytes": 1684
+    },
+    {
+      "path": "skills/elevation-create-and-audit/learning/records/effective-skill-2-evidence-bound-output.json",
+      "sha256": "e7751dfcd4b1a027235d161ff2360d3c93c0408d9d62a0b12b95e28a82de018d",
+      "bytes": 1760
+    },
+    {
+      "path": "skills/elevation-create-and-audit/learning/records/effective-skill-2-validation-closure.json",
+      "sha256": "9f52000a47376bd2682cc34f560967f28a240f390b5a96ad621636ba4d3d5542",
+      "bytes": 1004
+    },
+    {
+      "path": "skills/elevation-create-and-audit/learning/records/effective-version-skill-3-consolidated-routing.json",
+      "sha256": "f46ba5d7fb053ee6c6fd7f2978016b6e1be0b9acf02c9b4f904a10a04c5b23b2",
+      "bytes": 1473
+    },
+    {
+      "path": "skills/elevation-create-and-audit/learning/records/independent-source-review-and-export-edge-coverage.json",
+      "sha256": "6cb06f1635d77db5aec667c643409eeceff35b49d0c7d122d73c80f1097e477a",
+      "bytes": 1482
+    },
+    {
+      "path": "skills/elevation-create-and-audit/learning/records/iterative-source-correction-and-review-provenance.json",
+      "sha256": "5b0b6eeb420b01bd9e0dfad4d5328f08602861500a9bc9ff41a714b3eebcd18a",
+      "bytes": 1462
+    },
+    {
+      "path": "skills/elevation-create-and-audit/learning/records/omit-nondimensional-operation-reference-marks.json",
+      "sha256": "9679ecdbc5420bdfa188bb564b44a8753bdeb48260701aed8fc8cea8ec3c7f86",
+      "bytes": 1077
+    },
+    {
+      "path": "skills/elevation-create-and-audit/learning/records/owner-drawing-conventions.json",
+      "sha256": "d2ae6d2f33897ab8cc830bb9eccba058a0c9faa2271ad9fcbb7cf2a536141312",
+      "bytes": 854
+    },
+    {
+      "path": "skills/elevation-create-and-audit/learning/records/owner-simplified-factory-presentation-profile.json",
+      "sha256": "d9266e32ab7c6fe2a3397e1085078d600ff09794125fa91bd50135f0284cb843",
+      "bytes": 1848
+    },
+    {
+      "path": "skills/elevation-create-and-audit/learning/records/source-derived-prevention-and-owner-export-gates.json",
+      "sha256": "b73e410bf2da1730901265f68a62e8632074f5eda3a77ee98d73d8f5f2934969",
+      "bytes": 1364
+    },
+    {
+      "path": "skills/elevation-create-and-audit/learning/records/source-owned-simplification-and-negative-export-audit.json",
+      "sha256": "25c3d283fc2df784259010d9d62aaf7593d7121a5b845d6d43b3898323bef5e8",
+      "bytes": 1810
+    },
+    {
+      "path": "skills/elevation-create-and-audit/learning/records/source-reviewed-continuous-physical-outlines.json",
+      "sha256": "40a9e6ef411b0f7b312ea3e30883440c7e5da00f4ab2297ed1b5d7910fa7ef57",
+      "bytes": 1280
+    },
+    {
+      "path": "skills/elevation-create-and-audit/learning/records/source-size-versus-relationship-dimension-coverage.json",
+      "sha256": "cb7f4df34b3b217179c3e357d8d52e16d84ee98ef54eeb6c193ec406e043fb7b",
+      "bytes": 1428
+    },
+    {
+      "path": "skills/elevation-create-and-audit/learning/records/source-symbol-profile-and-material-neutral-marks.json",
+      "sha256": "6f18f14711e1b7d086be2d1bcfc7dc07e1f72d4201ad7df43b9e92fb095d0f7b",
+      "bytes": 1081
+    },
+    {
+      "path": "skills/elevation-create-and-audit/learning/records/source-verified-opening-operation-exception-20261018.json",
+      "sha256": "57043761ef0a80056ab271b83b7bd33a6911c04c3cb86f4645c3053ab9c3a960",
+      "bytes": 1466
+    },
+    {
+      "path": "skills/elevation-create-and-audit/references/acceptance.md",
+      "sha256": "d879b0ae2732808ddb2a08659648b0f01907adb82bdac5ab2d938f793ff895f1",
+      "bytes": 10994
+    },
+    {
+      "path": "skills/elevation-create-and-audit/references/dimensions.md",
+      "sha256": "28fde1f8d39d3c5b059a146dab12ea4f095ec1b1719c9c89d9ba5312b1241a1e",
+      "bytes": 6939
+    },
+    {
+      "path": "skills/elevation-create-and-audit/references/evolution.md",
+      "sha256": "e46752f3db365bbdab17bccf1a48b6937c51cf48fbcf492d329a960e1647ea59",
+      "bytes": 3808
+    },
+    {
+      "path": "skills/elevation-create-and-audit/references/lessons.md",
+      "sha256": "9b1d62396e6cf530248a4d5333b5099c82874b5995aacc05ab67d30e15e532b9",
+      "bytes": 9882
+    },
+    {
+      "path": "skills/elevation-create-and-audit/references/line-taxonomy.md",
+      "sha256": "8bc494f0cead5fbdf2db0aa8ff8775c0f590f927b2a18c2708f2425a911854f6",
+      "bytes": 3264
+    },
+    {
+      "path": "skills/elevation-create-and-audit/references/presentation.md",
+      "sha256": "c442642a4d42e816a5d82f8a20f4f9cdb4b72b7f2dd4130aca2e9cb84fcbadef",
+      "bytes": 4208
+    },
+    {
+      "path": "skills/elevation-create-and-audit/references/simplification.md",
+      "sha256": "052392a54a6e39ec148519c2c463fb7fed9da47f2f3bedc24b72995695486466",
+      "bytes": 8096
+    },
+    {
+      "path": "skills/elevation-create-and-audit/references/source-fidelity-gates.md",
+      "sha256": "334089ed53d31316f1a4d6e6e471b99f63c95ea10527dfbb38d77e24483d65fb",
+      "bytes": 4280
+    },
+    {
+      "path": "skills/elevation-create-and-audit/references/source-symbols.md",
+      "sha256": "3ad3b8c4fe52a0deec7422a47f39d6031ac4685db0f3b5e48d857a2b891acfdf",
+      "bytes": 5996
+    },
+    {
+      "path": "skills/elevation-create-and-audit/references/structure.md",
+      "sha256": "e3e67d4e7690346b7fc7a5da40d2f4cec9cb8dab4e95cab9544632a555153502",
+      "bytes": 6213
+    },
+    {
+      "path": "skills/elevation-create-and-audit/regression/source-fidelity-cases/Q0.pdf",
+      "sha256": "a8585460e7a2330e7cea1e067a8d7256eff16a1af168f1d1ccf094adaf5f84e2",
+      "bytes": 2017
+    },
+    {
+      "path": "skills/elevation-create-and-audit/regression/source-fidelity-cases/Q0.png",
+      "sha256": "99472110a244ec90595650daa3f827d750d4104017a692730405e2fb44fc45dd",
+      "bytes": 12150
+    },
+    {
+      "path": "skills/elevation-create-and-audit/regression/source-fidelity-cases/Q1.pdf",
+      "sha256": "10f4d88a55e6721775c2d3e7d14daad4aff0b9e88d00ca91347f7d060dfe4336",
+      "bytes": 2017
+    },
+    {
+      "path": "skills/elevation-create-and-audit/regression/source-fidelity-cases/Q1.png",
+      "sha256": "4a612c0b44188ef7b24569457236a6c8abe8ef872ebc53f99326114eecdd8cc1",
+      "bytes": 11995
+    },
+    {
+      "path": "skills/elevation-create-and-audit/regression/source-fidelity-cases/Q2.pdf",
+      "sha256": "c8c3e5009627e8ed44467bcad8d0ce65c82f572cbcd87007a9d949003bb7a0b4",
+      "bytes": 1998
+    },
+    {
+      "path": "skills/elevation-create-and-audit/regression/source-fidelity-cases/Q2.png",
+      "sha256": "822c47e7cf687b508a819bf365b48c96e847514b8023147ec33ac28444ff2e90",
+      "bytes": 11960
+    },
+    {
+      "path": "skills/elevation-create-and-audit/regression/source-fidelity-cases/Q3.pdf",
+      "sha256": "1ba18b808eaf01da353c53df0b6b29b0672d99747d0bb9c696cc307c2e9046ab",
+      "bytes": 2013
+    },
+    {
+      "path": "skills/elevation-create-and-audit/regression/source-fidelity-cases/Q3.png",
+      "sha256": "c1da2d968dbea94ec4d5ebeebd998527f57018f94897d2bc1471db0c6420fa16",
+      "bytes": 12290
+    },
+    {
+      "path": "skills/elevation-create-and-audit/regression/source-fidelity-cases/Q4.pdf",
+      "sha256": "51018217f22e07b61278d9e04b4f7b32a673b043faf2a579f40ce4fb4ab735c9",
+      "bytes": 1938
+    },
+    {
+      "path": "skills/elevation-create-and-audit/regression/source-fidelity-cases/Q4.png",
+      "sha256": "7702be4f4603877ccc1261c7cb0646ea108935989d278888db69da0ac1a13f01",
+      "bytes": 10653
+    },
+    {
+      "path": "skills/elevation-create-and-audit/regression/source-fidelity-cases/README.md",
+      "sha256": "0bd775e61f85af8f56274e8d01063abd25d86fafba9434274ae172d63b4b2bc8",
+      "bytes": 525
+    },
+    {
+      "path": "skills/elevation-create-and-audit/regression/source-fidelity-cases/evaluation.json",
+      "sha256": "62f40427b6aee7a077c398491b766a67ebd1c6f19e45b0434a3077194945f582",
+      "bytes": 2166
+    },
+    {
+      "path": "skills/elevation-create-and-audit/regression/source-fidelity-cases/source.json",
+      "sha256": "c821ca1ef551a937e4cce56c47c086501a68efe56d1aeb7c492f756cc661b34a",
+      "bytes": 948
+    },
+    {
+      "path": "skills/elevation-create-and-audit/regression/source-fidelity-cases/source.pdf",
+      "sha256": "fe6fe85cb25ea77e19796a7930e9402dbeb3588b2e3fbd2cbc6f699e8ca3d403",
+      "bytes": 2062
+    },
+    {
+      "path": "skills/elevation-create-and-audit/regression/source-fidelity-cases/source.png",
+      "sha256": "f673a490da46559c75241da74de73ae5384e5899a595a2be2ab39073650293c1",
+      "bytes": 13137
+    },
+    {
+      "path": "skills/elevation-create-and-audit/scripts/skill_versions.py",
+      "sha256": "cbd2b58b1ac59b9f22ce8743f2c321cdc0849b465c3c6217337db15de75f8374",
+      "bytes": 7535
+    },
+    {
+      "path": "skills/elevation-create-and-audit/scripts/test_skill_versions.py",
+      "sha256": "06ae07c712afbf646de93a7fcb6f2a5c384fcb735f7cb49686e4df341b5b27ad",
+      "bytes": 2909
+    },
+    {
+      "path": "skills/interior-drawing-standards/SKILL.md",
+      "sha256": "aab0ec3669cd0cc7e94a2c28d49f719d0277dd324cc7679d15f6798639846083",
+      "bytes": 3603
+    },
+    {
+      "path": "skills/interior-drawing-standards/agents/openai.yaml",
+      "sha256": "85aeb924e43d54acf647518a270610404225148c6b86882adac56979ea837c22",
+      "bytes": 287
+    },
+    {
+      "path": "skills/interior-drawing-standards/learning/records/customer-evidence-precedence.json",
+      "sha256": "f6be43174ad16125a9f4b408c961e56f9774e5cdfa2919acea0212dc8a2a1000",
+      "bytes": 1041
+    },
+    {
+      "path": "skills/interior-drawing-standards/references/authority-and-applicability.md",
+      "sha256": "2c3c7ba01dcb5d8d2f0e6362ddd7942f5bc0d9396cfe327c94e1400b80110782",
+      "bytes": 2225
+    },
+    {
+      "path": "skills/interior-drawing-standards/references/drawing-language.md",
+      "sha256": "b41e51a45effa6362dca5123b887b474c818972d2c4f8c0c51525986cd840a04",
+      "bytes": 2559
+    },
+    {
+      "path": "skills/interior-drawing-standards/references/evolution.md",
+      "sha256": "77e40ac39e1a955071e1b69baf2c329cd7a9c49222acb7663df04795f3044705",
+      "bytes": 2090
+    },
+    {
+      "path": "skills/interior-drawing-standards/references/example-interpretations.json",
+      "sha256": "f8eb766d8b58c5cc3d60757b620769ec84f91098514bc8fd3d2b53e3d2f2390d",
+      "bytes": 4833
+    },
+    {
+      "path": "skills/interior-drawing-standards/references/interpretation-records.md",
+      "sha256": "031980d20b4c9358c75ddfbc311f36fa3489a2edce14400311822c6d4a3ff1f4",
+      "bytes": 1848
+    },
+    {
+      "path": "skills/interior-drawing-standards/references/material-systems.md",
+      "sha256": "c00c5a2c54b3a5bceea41388e302506d1ff47a6df8e8add2cec013767cecac24",
+      "bytes": 3312
+    },
+    {
+      "path": "skills/interior-drawing-standards/references/reference-index.md",
+      "sha256": "c083b9039178c498efd95848e1a44400113afe6472e1ee4f410922a82310efec",
+      "bytes": 5548
+    },
+    {
+      "path": "skills/interior-drawing-standards/references/validation.md",
+      "sha256": "bf2b959be3e8ca1387ca49a26827448384499db48cdd59aa8fec7d5d61c01ba8",
+      "bytes": 1495
+    },
+    {
+      "path": "skills/interior-drawing-standards/scripts/skill_versions.py",
+      "sha256": "16617d2f06d55226cd570e42b558d5ea4a3140a84218414c0ea6f4fe24d4e40f",
+      "bytes": 7560
+    },
+    {
+      "path": "skills/interior-drawing-standards/scripts/test_skill_versions.py",
+      "sha256": "e93cf3179fe3f2d6349c5d49fca4382cea9a743cbf5a710b488da59c7b16cd34",
+      "bytes": 3261
+    },
+    {
+      "path": "skills/interior-drawing-standards/scripts/validate_interpretations.py",
+      "sha256": "e73b0ebd407849e9d9152a5bda1f80bde5c70d46848555ae99529a7f2e81e036",
+      "bytes": 2846
+    }
+  ],
+  "bundle_fingerprint": "2e81cf779f9af8ff594bdbed35358e13cc72c3ecde92858ed0c8084b641732ae"
+}
