@@ -86,7 +86,9 @@ The three-page test drawing contains **A101 floor plans**, **A200 kitchen plans 
 3. In Step 1, click **Import source** (or **Add original PDF**) and select the downloaded PDF. Wait for the first-page preview.
 4. Browse all three source pages. Use page 2 for the kitchen or page 3 for the powder room, then click **Continue to Step 2** to continue the drawing workflow.
 
-**Expected import result:** the original three-page PDF is available in the new project. Import and PDF preview work locally. For AI drawing generation, configure your own OpenAI API key through **Assistant settings**. In Step 2, use **Build all 2D groups** for the full scope, or **Build 2D** for a restricted scope, then compare the generated views with the source dimensions and annotations.
+**Expected import result:** the original three-page PDF is available in the new project. Import and PDF preview work locally.
+
+For AI drawing generation, configure your own OpenAI API key through **Assistant settings**. For a smaller test, expand **Drawing scope (optional)** in Step 2, name one room or view, then select **Build 2D**. Use **Build all 2D groups** to process the full scope. Compare the generated views with the source dimensions and annotations. The PDF page selected for preview does not restrict the AI drawing scope.
 
 To test the **Codex skills**, follow [Start with the skills](#start-with-the-skills), place the PDF in your own project folder, and start a fresh chat with `$drawing-workflow`. Begin with one highlighted kitchen or powder-room view and check the result against the PDF before expanding the test.
 
