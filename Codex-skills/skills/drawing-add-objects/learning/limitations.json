@@ -1,0 +1,11 @@
+{
+  "skill": "drawing-add-objects",
+  "status": "instruction_validated_not_generalized",
+  "limitations": [
+    "Only one project insertion has been visually exercised.",
+    "The project renderer is not a general addition engine.",
+    "A passing repeatability check does not prove source accuracy.",
+    "Fixed-envelope conflict handling is validated as a decision case, not on a second customer drawing."
+  ]
+}
+

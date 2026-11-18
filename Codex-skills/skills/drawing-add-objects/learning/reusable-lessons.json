@@ -1,0 +1,25 @@
+{
+  "skill": "drawing-add-objects",
+  "status": "candidate_companion_skill",
+  "lessons": [
+    {
+      "id": "solve-space-before-translation",
+      "scope": "invariant",
+      "rule": "Compute consumed space from object size, usable gap, clearances, and envelope constraints before translating neighbours.",
+      "basis": "verified project correction"
+    },
+    {
+      "id": "translate-owner-closure",
+      "scope": "invariant",
+      "rule": "Translate recursive children, owned symbols, labels, material regions, and bound endpoints with their assembly.",
+      "basis": "verified project correction"
+    },
+    {
+      "id": "amendment-dimension-status",
+      "scope": "invariant",
+      "rule": "Treat a customer-specified dimension as an amendment and record its display policy independently from inference status.",
+      "basis": "explicit user requirement"
+    }
+  ]
+}
+
