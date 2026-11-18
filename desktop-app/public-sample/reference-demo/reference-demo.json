@@ -1,0 +1,119 @@
+{
+  "schema": "vwc-reference-demo/1",
+  "title": "A200 + A202 Design Demo",
+  "generation": "reference-demo-051-v1",
+  "sections": [
+    {
+      "id": "A200",
+      "title": "Kitchen",
+      "pdf": "A200-Plan-and-Elevations.pdf",
+      "viewer_html": "A200-3D.html",
+      "views": [
+        {
+          "id": "plan",
+          "label": "Plan",
+          "source_title": "A200 PLAN - KITCHEN",
+          "source_view": "PLAN",
+          "source_page": 1,
+          "image": "A200-plan.png"
+        },
+        {
+          "id": "elevation-1",
+          "label": "Kitchen 1 - 2/A200",
+          "source_title": "2/A200 - FRONT UNIT KITCHEN 1",
+          "source_view": "2/A200",
+          "source_page": 2,
+          "image": "A200-elevation-1.png"
+        },
+        {
+          "id": "elevation-2",
+          "label": "Kitchen 2 - 3/A200",
+          "source_title": "3/A200 - FRONT UNIT KITCHEN 2",
+          "source_view": "3/A200",
+          "source_page": 3,
+          "image": "A200-elevation-2.png"
+        },
+        {
+          "id": "elevation-3",
+          "label": "Kitchen 4 - 4/A200",
+          "source_title": "4/A200 - FRONT UNIT KITCHEN 4",
+          "source_view": "4/A200",
+          "source_page": 4,
+          "image": "A200-elevation-3.png"
+        },
+        {
+          "id": "elevation-4",
+          "label": "Kitchen 3 - 5/A200",
+          "source_title": "5/A200 - FRONT UNIT KITCHEN 3",
+          "source_view": "5/A200",
+          "source_page": 5,
+          "image": "A200-elevation-4.png"
+        }
+      ]
+    },
+    {
+      "id": "A202",
+      "title": "Powder room",
+      "pdf": "A202-Plan-and-Elevations.pdf",
+      "viewer_html": "A202-3D.html",
+      "views": [
+        {
+          "id": "plan",
+          "label": "Plan",
+          "source_title": "A202 PLAN - POWDER ROOM",
+          "source_view": "PLAN",
+          "source_page": 1,
+          "image": "A202-plan.png"
+        },
+        {
+          "id": "elevation-1",
+          "label": "Powder room 1 - 1/A202",
+          "source_title": "1/A202 - FRONT UNIT POWDER ROOM 1",
+          "source_view": "1/A202",
+          "source_page": 2,
+          "image": "A202-elevation-1.png"
+        },
+        {
+          "id": "elevation-2",
+          "label": "Powder room 2 - 2/A202",
+          "source_title": "2/A202 - FRONT UNIT POWDER ROOM 2",
+          "source_view": "2/A202",
+          "source_page": 3,
+          "image": "A202-elevation-2.png"
+        },
+        {
+          "id": "elevation-3",
+          "label": "Powder room 3 - 3/A202",
+          "source_title": "3/A202 - FRONT UNIT POWDER ROOM 3",
+          "source_view": "3/A202",
+          "source_page": 4,
+          "image": "A202-elevation-3.png"
+        },
+        {
+          "id": "elevation-4",
+          "label": "Powder room 4 - 4/A202",
+          "source_title": "4/A202 - FRONT UNIT POWDER ROOM 4",
+          "source_view": "4/A202",
+          "source_page": 5,
+          "image": "A202-elevation-4.png"
+        }
+      ]
+    }
+  ],
+  "assets": [
+    "A200-Plan-and-Elevations.pdf",
+    "A200-plan.png",
+    "A200-elevation-1.png",
+    "A200-elevation-2.png",
+    "A200-elevation-3.png",
+    "A200-elevation-4.png",
+    "A200-3D.html",
+    "A202-Plan-and-Elevations.pdf",
+    "A202-plan.png",
+    "A202-elevation-1.png",
+    "A202-elevation-2.png",
+    "A202-elevation-3.png",
+    "A202-elevation-4.png",
+    "A202-3D.html"
+  ]
+}
