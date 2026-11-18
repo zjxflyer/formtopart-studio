@@ -1,0 +1,4 @@
+interface:
+  display_name: "Drawing 3D Workspace / 图纸三维工作区"
+  short_description: "Evidence-based 3D editing and portable drawing viewers"
+  default_prompt: "Use $drawing-3d-workspace to coordinate source-backed plan/elevation geometry in an editable 3D workspace and verify its viewer exports."
