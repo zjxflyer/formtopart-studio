@@ -1,0 +1,6 @@
+.autonomous-2d-status{margin:8px 12px;padding:10px 12px;border:1px solid #d4b97f;border-radius:8px;background:#fffaf0;font-size:12px;max-height:240px;overflow:auto;flex-shrink:0}
+.autonomous-2d-status.ready{border-color:#a5baa0;background:#f2f7ee}
+.autonomous-2d-status summary{display:flex;gap:15px;align-items:center;flex-wrap:wrap;cursor:pointer}
+.autonomous-2d-status summary span,.autonomous-2d-status small{color:#687960}
+.autonomous-2d-status p{margin:8px 0!important}
+.autonomous-2d-status ul{padding-left:20px;max-height:190px;overflow:auto;line-height:1.6}

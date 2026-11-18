@@ -1,0 +1,15 @@
+.studio .drawing-results{display:flex;align-items:center;flex-wrap:wrap;gap:6px 12px;flex:none;min-height:43px;padding:6px 12px;background:#f7f8f1;border-bottom:1px solid #dfe5d6;min-width:0}
+.studio .drawing-results-selection{display:flex;align-items:center;gap:8px;flex:1 1 260px;min-width:0}
+.studio .drawing-results-label{font-size:10px;font-weight:600;white-space:nowrap;color:#556d4b}
+.studio .drawing-results select{min-width:0;max-width:none;width:100%;padding:6px 8px;min-height:30px;font-size:11px;background:#fffefa;color:#31533c;border:1px solid #cdd9c4;border-radius:5px;text-overflow:ellipsis}
+.studio .drawing-results-controls{display:flex;align-items:center;gap:5px;flex:none;max-width:100%}
+.studio .drawing-results-controls button{display:inline-flex;align-items:center;justify-content:center;gap:4px;min-height:29px;padding:4px 7px;border:1px solid #d2ddca;border-radius:5px;background:#fffefa;color:#4a6642;font-size:10px;white-space:nowrap}
+.studio .drawing-results-controls button:hover:not(:disabled){background:#eaf1e2;border-color:#acbfa0}
+.studio .drawing-results-controls button:disabled{opacity:.4;cursor:not-allowed}
+.studio .drawing-results-controls button svg{width:13px;height:13px;fill:none;stroke:currentColor;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}
+.studio .drawing-results-count{min-width:34px;text-align:center;font-size:10px;font-variant-numeric:tabular-nums;color:#76866b;white-space:nowrap}
+.studio .drawing-results-empty{font-size:11px;color:#7c8b71;padding:5px 0}
+.studio .drawing-results-extra{display:flex;align-items:center;flex-wrap:wrap;gap:6px;margin-left:auto;min-width:0;max-width:100%}
+.studio .drawing-results-extra select{width:auto;min-width:120px;max-width:220px}
+.studio .drawing-results-extra .subtle{min-height:28px;padding:4px 7px;font-size:10px;white-space:nowrap}
+@media(max-width:700px){.studio .drawing-results{padding:6px 9px;gap:6px 9px}.studio .drawing-results-selection{flex-basis:100%}.studio .drawing-results select{font-size:10px}.studio .drawing-results-controls button{padding:4px 6px;font-size:9px}.studio .drawing-results-extra{margin-left:auto}.studio .drawing-results-extra select{min-width:110px;max-width:190px}}

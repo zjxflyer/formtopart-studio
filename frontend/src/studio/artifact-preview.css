@@ -1,0 +1,8 @@
+.artifact-preview{display:flex;flex-direction:column;flex:1;min-height:0}
+.artifact-preview-actions{display:flex;align-items:center;justify-content:flex-end;gap:12px;padding:8px 14px;border-bottom:1px solid #dce4d7}
+.artifact-preview-actions span{margin-right:auto}
+.artifact-preview-actions a{display:inline-flex;align-items:center;text-decoration:none}
+.artifact-preview-image,.artifact-preview pre{flex:1;min-height:0;overflow:auto;margin:0;padding:14px;background:#f3f6ef}
+.artifact-preview-image img{display:block;max-width:100%;height:auto;margin:0 auto;background:#fff}
+.artifact-preview pre{white-space:pre-wrap;overflow-wrap:anywhere}
+.artifact-preview-message{padding:14px;margin:0}

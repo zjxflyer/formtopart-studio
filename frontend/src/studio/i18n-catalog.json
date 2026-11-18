@@ -1,0 +1,1550 @@
+{
+  "Offline 3D export is unavailable in this build. / 此版本暂不能导出离线三维演示。": [
+    "Offline 3D export is unavailable in this build.",
+    "此版本暂不能导出离线三维演示。"
+  ],
+  "Choose a different axis for length, width and thickness. / 长、宽、厚须选择三个不同的轴。": [
+    "Choose a different axis for length, width and thickness.",
+    "长、宽、厚须选择三个不同的轴。"
+  ],
+  "Allowances must be zero or positive. / 余量须为零或正数。": [
+    "Allowances must be zero or positive.",
+    "余量须为零或正数。"
+  ],
+  "Could not prepare the board preview. Your saved design is unchanged. / 未能生成板件预览，已保存设计保持不变。": [
+    "Could not prepare the board preview. Your saved design is unchanged.",
+    "未能生成板件预览，已保存设计保持不变。"
+  ],
+  "板件规格 Board specification": [
+    "Board specification",
+    "板件规格"
+  ],
+  "矩形实体板件 · 本地尺寸 / Rectangular physical panel · local dimensions": [
+    "Rectangular physical panel · local dimensions",
+    "矩形实体板件 · 本地尺寸"
+  ],
+  "待确认 TBC": [
+    "TBC",
+    "待确认"
+  ],
+  "长度轴 Length axis": [
+    "Length axis",
+    "长度轴"
+  ],
+  "宽度轴 Width axis": [
+    "Width axis",
+    "宽度轴"
+  ],
+  "厚度轴 Thickness axis": [
+    "Thickness axis",
+    "厚度轴"
+  ],
+  "选择轴 Choose axis": [
+    "Choose axis",
+    "选择轴"
+  ],
+  "纹理 Grain": [
+    "Grain",
+    "纹理"
+  ],
+  "无指定 None": [
+    "None",
+    "无指定"
+  ],
+  "沿长度 Length": [
+    "Length",
+    "沿长度"
+  ],
+  "沿宽度 Width": [
+    "Width",
+    "沿宽度"
+  ],
+  "长度总余量 Length allowance (mm)": [
+    "Length allowance (mm)",
+    "长度总余量"
+  ],
+  "宽度总余量 Width allowance (mm)": [
+    "Width allowance (mm)",
+    "宽度总余量"
+  ],
+  "余量是开料长宽的总增量，成品尺寸保持不变。 Allowances are total additions to cutting sizes; finished sizes stay unchanged.": [
+    "Allowances are total additions to cutting sizes; finished sizes stay unchanged.",
+    "余量是开料长宽的总增量，成品尺寸保持不变。"
+  ],
+  "封边 Edge treatment": [
+    "Edge treatment",
+    "封边"
+  ],
+  "左 Left": [
+    "Left",
+    "左"
+  ],
+  "右 Right": [
+    "Right",
+    "右"
+  ],
+  "上 Top": [
+    "Top",
+    "上"
+  ],
+  "下 Bottom": [
+    "Bottom",
+    "下"
+  ],
+  "加工说明 Machining notes": [
+    "Machining notes",
+    "加工说明"
+  ],
+  "取消 Cancel": [
+    "Cancel",
+    "取消"
+  ],
+  "预览板件规格 Preview": [
+    "Preview",
+    "预览板件规格"
+  ],
+  "开料清单 Excel cutting list": [
+    "Excel cutting list",
+    "开料清单"
+  ],
+  "已保存版本 Saved R": [
+    "Saved R",
+    "已保存版本"
+  ],
+  "实体板件与指定材料 / Physical panels and assigned materials": [
+    "Physical panels and assigned materials",
+    "实体板件与指定材料"
+  ],
+  "刷新 Refresh": [
+    "Refresh",
+    "刷新"
+  ],
+  "导出 Excel Export": [
+    "Excel Export",
+    "导出"
+  ],
+  "当前有未应用预览。先应用或放弃，再更新已保存版本的开料清单。 Apply or discard the current preview before updating the saved cutting list.": [
+    "Apply or discard the current preview before updating the saved cutting list.",
+    "当前有未应用预览。先应用或放弃，再更新已保存版本的开料清单。"
+  ],
+  "正在读取板件清单… Loading panels…": [
+    "Loading panels",
+    "正在读取板件清单…"
+  ],
+  "清单版本已变化，请刷新后导出。 The list revision changed. Refresh before exporting.": [
+    "The list revision changed. Refresh before exporting.",
+    "清单版本已变化，请刷新后导出。"
+  ],
+  "查找板件 Find a panel": [
+    "Find a panel",
+    "查找板件"
+  ],
+  "板件、材料、颜色 / Panel, material, color": [
+    "Panel, material, color",
+    "板件、材料、颜色"
+  ],
+  "项 / rows ·": [
+    "rows",
+    "项"
+  ],
+  "块 / panels": [
+    "panels",
+    "块"
+  ],
+  "尚无可导出的板件。可先设计柜内结构，或补充下方板件信息。 No exportable panels yet. Design cabinet interiors or complete the panel information below.": [
+    "No exportable panels yet. Design cabinet interiors or complete the panel information below.",
+    "尚无可导出的板件。可先设计柜内结构，或补充下方板件信息。"
+  ],
+  "· 成品及开料尺寸 Finished and cutting sizes · mm": [
+    "Finished and cutting sizes · mm",
+    "成品及开料尺寸"
+  ],
+  "板件 Panel": [
+    "Panel",
+    "板件"
+  ],
+  "材料 Material": [
+    "Material",
+    "材料"
+  ],
+  "成品 L × W × T": [
+    "Finished L × W × T",
+    "成品"
+  ],
+  "开料 L × W": [
+    "Cut L × W",
+    "开料"
+  ],
+  "数量 Qty": [
+    "Qty",
+    "数量"
+  ],
+  "纹理 / 封边 Grain / edges": [
+    "Grain / edges",
+    "纹理 / 封边"
+  ],
+  "面积 / 说明 Area / notes": [
+    "Area / notes",
+    "面积 / 说明"
+  ],
+  "查看三维 View in 3D": [
+    "View in 3D",
+    "查看三维"
+  ],
+  "沿长 Length": [
+    "Length",
+    "沿长"
+  ],
+  "沿宽 Width": [
+    "Width",
+    "沿宽"
+  ],
+  "上一页 Previous": [
+    "Previous",
+    "上一页"
+  ],
+  "下一页 Next": [
+    "Next",
+    "下一页"
+  ],
+  "待补充的板件 Panel details needed": [
+    "Panel details needed",
+    "待补充的板件"
+  ],
+  "不属于开料板件的构件 Excluded objects (": [
+    "Excluded objects (",
+    "不属于开料板件的构件"
+  ],
+  "排除原因 Reasons": [
+    "Reasons",
+    "排除原因"
+  ],
+  "Excel 包含板件规格。排版与机型专用刀路需另行准备。 Excel contains panel specifications. Nesting and machine-specific toolpaths are separate.": [
+    "Excel Excel contains panel specifications. Nesting and machine-specific toolpaths are separate.",
+    "包含板件规格。排版与机型专用刀路需另行准备。 Excel contains panel specifications. Nesting and machine-specific toolpaths are separate."
+  ],
+  "图纸检查通过 · Drawing checks passed": [
+    "Drawing checks passed",
+    "图纸检查通过"
+  ],
+  "图纸需要更新 · Drawing needs updating": [
+    "Drawing needs updating",
+    "图纸需要更新"
+  ],
+  "等待图纸审查 · Drawing review pending": [
+    "Drawing review pending",
+    "等待图纸审查"
+  ],
+  "图纸尚未完整 · Drawing incomplete": [
+    "Drawing incomplete",
+    "图纸尚未完整"
+  ],
+  "Drawing review found incomplete or outdated views. Inspect the listed issues; Apply is unavailable. / 图纸检查发现不完整或过期视图，请查看问题；暂不能应用。": [
+    "Drawing review found incomplete or outdated views. Inspect the listed issues; Apply is unavailable.",
+    "图纸检查发现不完整或过期视图，请查看问题；暂不能应用。"
+  ],
+  "Drawing preview available. Review the source views, then Apply or Discard. / 图纸预览已生成，请核对原图视图后应用或放弃。": [
+    "Drawing preview available. Review the source views, then Apply or Discard.",
+    "图纸预览已生成，请核对原图视图后应用或放弃。"
+  ],
+  "Enter a code and name. / 请填写材料编号及名称。": [
+    "Enter a code and name.",
+    "请填写材料编号及名称。"
+  ],
+  "Enter both positive stock-sheet dimensions. / 请填写原板的正数长宽。": [
+    "Enter both positive stock-sheet dimensions.",
+    "请填写原板的正数长宽。"
+  ],
+  "编辑材料 Edit material": [
+    "Edit material",
+    "编辑材料"
+  ],
+  "新增材料 Add material": [
+    "Add material",
+    "新增材料"
+  ],
+  "编号 Code": [
+    "Code",
+    "编号"
+  ],
+  "名称 Name": [
+    "Name",
+    "名称"
+  ],
+  "颜色 Color": [
+    "Color",
+    "颜色"
+  ],
+  "颜色名称 Color name": [
+    "Color name",
+    "颜色名称"
+  ],
+  "类别 Category": [
+    "Category",
+    "类别"
+  ],
+  "板材 Sheet": [
+    "Sheet",
+    "板材"
+  ],
+  "石材 Stone": [
+    "Stone",
+    "石材"
+  ],
+  "金属 Metal": [
+    "Metal",
+    "金属"
+  ],
+  "玻璃 Glass": [
+    "Glass",
+    "玻璃"
+  ],
+  "饰面 Finish": [
+    "Finish",
+    "饰面"
+  ],
+  "其他 Other": [
+    "Other",
+    "其他"
+  ],
+  "厚度 Thickness (mm)": [
+    "Thickness (mm)",
+    "厚度"
+  ],
+  "未指定 Not specified": [
+    "Not specified",
+    "未指定"
+  ],
+  "基材 Substrate": [
+    "Substrate",
+    "基材"
+  ],
+  "库存数量 Stock count": [
+    "Stock count",
+    "库存数量"
+  ],
+  "未记录 Not recorded": [
+    "Not recorded",
+    "未记录"
+  ],
+  "供应商 Supplier": [
+    "Supplier",
+    "供应商"
+  ],
+  "产品编号 SKU": [
+    "SKU",
+    "产品编号"
+  ],
+  "原板规格 Stock sheets · mm": [
+    "Stock sheets · mm",
+    "原板规格"
+  ],
+  "添加规格 Add size": [
+    "Add size",
+    "添加规格"
+  ],
+  "长 Length": [
+    "Length",
+    "长"
+  ],
+  "宽 Width": [
+    "Width",
+    "宽"
+  ],
+  "移除 Remove": [
+    "Remove",
+    "移除"
+  ],
+  "可供选择 Active in library": [
+    "Active in library",
+    "可供选择"
+  ],
+  "停用材料会从选材列表隐藏，已保存项目保留其材料快照。 Archiving hides it from new assignments; saved projects keep their pinned material.": [
+    "Archiving hides it from new assignments; saved projects keep their pinned material.",
+    "停用材料会从选材列表隐藏，已保存项目保留其材料快照。"
+  ],
+  "返回 Back": [
+    "Back",
+    "返回"
+  ],
+  "保存材料 Save material": [
+    "Save material",
+    "保存材料"
+  ],
+  "材料库 Material library": [
+    "Material library",
+    "材料库"
+  ],
+  "重新加载 Reload": [
+    "Reload",
+    "重新加载"
+  ],
+  "本机材料 · Local library": [
+    "Local library",
+    "本机材料"
+  ],
+  "搜索材料 Search materials": [
+    "Search materials",
+    "搜索材料"
+  ],
+  "编号、名称、颜色、供应商 / Code, name, color, supplier": [
+    "Code, name, color, supplier",
+    "编号、名称、颜色、供应商"
+  ],
+  "显示已停用材料 Show archived": [
+    "Show archived",
+    "显示已停用材料"
+  ],
+  "原图饰面 Source finish:": [
+    "Source finish",
+    "原图饰面"
+  ],
+  "仅此构件 This part": [
+    "This part",
+    "仅此构件"
+  ],
+  "明确选择子板件 Choose child panels (": [
+    "Choose child panels (",
+    "明确选择子板件"
+  ],
+  "板厚待设置 Thickness not set": [
+    "Thickness not set",
+    "板厚待设置"
+  ],
+  "已选": [
+    "Selected",
+    "已选"
+  ],
+  "个构件 /": [
+    "parts /",
+    "个构件 /"
+  ],
+  "selected · 子板件": [
+    "selected · child panels",
+    "子板件"
+  ],
+  "清除已选材料 Clear selected assignments": [
+    "Clear selected assignments",
+    "清除已选材料"
+  ],
+  "Could not prepare the clear-assignment preview. / 未能生成清除材料分配的预览。": [
+    "Could not prepare the clear-assignment preview.",
+    "未能生成清除材料分配的预览。"
+  ],
+  "仅清除指定产品，保留原图饰面。 / Clears the product assignment; source finish remains.": [
+    "Clears the product assignment; source finish remains.",
+    "仅清除指定产品，保留原图饰面。"
+  ],
+  "先应用或放弃当前预览，再分配材料。 Apply or discard the current preview before assigning material.": [
+    "Apply or discard the current preview before assigning material.",
+    "先应用或放弃当前预览，再分配材料。"
+  ],
+  "正在读取材料… Loading materials…": [
+    "Loading materials",
+    "正在读取材料…"
+  ],
+  "没有匹配材料。可新增材料或调整搜索。 No matching material. Add one or adjust the search.": [
+    "No matching material. Add one or adjust the search.",
+    "没有匹配材料。可新增材料或调整搜索。"
+  ],
+  " · 已停用 Archived": [
+    "Archived",
+    "已停用"
+  ],
+  "编辑 Edit": [
+    "Edit",
+    "编辑"
+  ],
+  "选择": [
+    "Select",
+    "选择"
+  ],
+  "mm 板件 (": [
+    "mm panels (",
+    "板件 ("
+  ],
+  "Could not prepare the material preview. Your saved design is unchanged. / 未能生成材料预览，已保存设计保持不变。": [
+    "Could not prepare the material preview. Your saved design is unchanged.",
+    "未能生成材料预览，已保存设计保持不变。"
+  ],
+  "预览使用": [
+    "Preview on",
+    "预览使用"
+  ],
+  "项 Use": [
+    "parts",
+    "项"
+  ],
+  "原图饰面 Source finish": [
+    "Source finish",
+    "原图饰面"
+  ],
+  "指定材料 Assigned material": [
+    "Assigned material",
+    "指定材料"
+  ],
+  "尚未指定 Not assigned": [
+    "Not assigned",
+    "尚未指定"
+  ],
+  "选择材料 Choose material": [
+    "Choose material",
+    "选择材料"
+  ],
+  "材料库 Library": [
+    "Library",
+    "材料库"
+  ],
+  "设置开料规格 Set board specification": [
+    "Set board specification",
+    "设置开料规格"
+  ],
+  "原图表面不是实体开料板件。 A source face is not a physical cutting board.": [
+    "A source face is not a physical cutting board.",
+    "原图表面不是实体开料板件。"
+  ],
+  "任务排队中 · Waiting to start": [
+    "Waiting to start",
+    "任务排队中"
+  ],
+  "正在读取客户原图 · Reading customer drawings": [
+    "Reading customer drawings",
+    "正在读取客户原图"
+  ],
+  "正在对应图页与视图 · Matching sheets and views": [
+    "Matching sheets and views",
+    "正在对应图页与视图"
+  ],
+  "读取已保存的视图索引 · Reusing the saved view map": [
+    "Reusing the saved view map",
+    "读取已保存的视图索引"
+  ],
+  "正在构建设计模型 · Building the design model": [
+    "Building the design model",
+    "正在构建设计模型"
+  ],
+  "正在接收模型结果 · Receiving the model": [
+    "Receiving the model",
+    "正在接收模型结果"
+  ],
+  "正在检查尺寸与结构 · Checking dimensions and structure": [
+    "Checking dimensions and structure",
+    "正在检查尺寸与结构"
+  ],
+  "正在绘制原图视图 · Drafting source views": [
+    "Drafting source views",
+    "正在绘制原图视图"
+  ],
+  "正在提取原图线条与标注 · Extracting source lines and annotations": [
+    "Extracting source lines and annotations",
+    "正在提取原图线条与标注"
+  ],
+  "正在生成图纸文件 · Rendering drawings": [
+    "Rendering drawings",
+    "正在生成图纸文件"
+  ],
+  "正在对照原图审查 · Checking drawings against sources": [
+    "Checking drawings against sources",
+    "正在对照原图审查"
+  ],
+  "正在修复图纸问题 · Repairing drawing issues": [
+    "Repairing drawing issues",
+    "正在修复图纸问题"
+  ],
+  "等待核对图纸 · Review drawings": [
+    "Review drawings",
+    "等待核对图纸"
+  ],
+  "正在处理设计 · Processing your design": [
+    "Processing your design",
+    "正在处理设计"
+  ],
+  "Plan / 平面": [
+    "Plan",
+    "平面"
+  ],
+  "设计 · ": [
+    "Designed · ",
+    "设计 · "
+  ],
+  "原图 Source": [
+    "Source",
+    "原图"
+  ],
+  "推断 Inferred": [
+    "Inferred",
+    "推断"
+  ],
+  "修改 Amended": [
+    "Amended",
+    "修改"
+  ],
+  "设计 Designed": [
+    "Designed",
+    "设计"
+  ],
+  "预览": [
+    "Preview",
+    "预览"
+  ],
+  "Enter a number or fraction / 请输入数字或分数": [
+    "Enter a number or fraction",
+    "请输入数字或分数"
+  ],
+  "由关联尺寸计算 ·": [
+    "Calculated from linked dimensions ·",
+    "由关联尺寸计算 ·"
+  ],
+  "原图依据 ·": [
+    "Source evidence ·",
+    "原图依据 ·"
+  ],
+  "3D swing lines / 三维开启线": [
+    "3D swing lines",
+    "三维开启线"
+  ],
+  "2D source opening marks / 二维原图开启标记": [
+    "2D source opening marks",
+    "二维原图开启标记"
+  ],
+  "The result is missing a preview. / 返回结果缺少预览。": [
+    "The result is missing a preview.",
+    "返回结果缺少预览。"
+  ],
+  "AI request failed. Your saved design is unchanged. / AI 请求失败，已保存设计保持不变。": [
+    "AI request failed. Your saved design is unchanged. / AI",
+    "请求失败，已保存设计保持不变。"
+  ],
+  "3D is unavailable on this device. Linked drawings remain available. / 此设备无法显示三维，仍可查看联动二维图。": [
+    "3D is unavailable on this device. Linked drawings remain available.",
+    "此设备无法显示三维，仍可查看联动二维图。"
+  ],
+  "Creating project / 正在创建项目": [
+    "Creating project",
+    "正在创建项目"
+  ],
+  "Each source must be under 50 MB. / 每个原图文件需小于 50 MB。": [
+    "Each source must be under 50 MB. / 50 MB",
+    "每个原图文件需小于 50 MB。"
+  ],
+  "Importing source / 正在导入原图": [
+    "Importing source",
+    "正在导入原图"
+  ],
+  "Source saved locally. Select Analyze when you are ready. / 原图已保存在本地，准备好后点击分析。": [
+    "Source saved locally. Select Analyze when you are ready.",
+    "原图已保存在本地，准备好后点击分析。"
+  ],
+  "Importing demo / 正在导入演示": [
+    "Importing demo",
+    "正在导入演示"
+  ],
+  "A200 + A202 demo imported. AI analysis starts only when you click Analyze. / 演示原图已导入，点击分析后才会调用 AI。": [
+    "A200 + A202 demo imported. AI analysis starts only when you click Analyze. / AI",
+    "演示原图已导入，点击分析后才会调用 AI。"
+  ],
+  "Opening prepared example / 正在打开已准备的演示": [
+    "Opening prepared example",
+    "正在打开已准备的演示"
+  ],
+  "Prepared vanity pilot opened. No AI call was needed. / 已打开准备好的盥洗柜演示，未调用 AI。": [
+    "Prepared vanity pilot opened. No AI call was needed. / AI",
+    "已打开准备好的盥洗柜演示，未调用 AI。"
+  ],
+  "Opening reviewed example / 正在打开已审核演示": [
+    "Opening reviewed example",
+    "正在打开已审核演示"
+  ],
+  "Reviewed A200 + A202 example opened locally. No AI call was needed. / 已在本地打开审核后的 A200 + A202 演示，未调用 AI。": [
+    "Reviewed A200 + A202 example opened locally. No AI call was needed. / A200 + A202 AI",
+    "已在本地打开审核后的 A200 + A202 演示，未调用 AI。"
+  ],
+  "Starting analysis / 正在开始分析": [
+    "Starting analysis",
+    "正在开始分析"
+  ],
+  "Preparing sources / 准备原图": [
+    "Preparing sources",
+    "准备原图"
+  ],
+  "Saving revision / 正在保存版本": [
+    "Saving revision",
+    "正在保存版本"
+  ],
+  "Discarding preview / 正在放弃预览": [
+    "Discarding preview",
+    "正在放弃预览"
+  ],
+  "Preview discarded. Saved revision unchanged. / 已放弃预览，已保存版本保持不变。": [
+    "Preview discarded. Saved revision unchanged.",
+    "已放弃预览，已保存版本保持不变。"
+  ],
+  "Regenerating linked drawings / 正在重新生成联动图纸": [
+    "Regenerating linked drawings",
+    "正在重新生成联动图纸"
+  ],
+  "Calculating preview / 正在计算预览": [
+    "Calculating preview",
+    "正在计算预览"
+  ],
+  "Preparing material preview / 正在生成材料预览": [
+    "Preparing material preview",
+    "正在生成材料预览"
+  ],
+  "Preparing board preview / 正在生成板件预览": [
+    "Preparing board preview",
+    "正在生成板件预览"
+  ],
+  "Preparing assignment removal / 正在预览清除材料分配": [
+    "Preparing assignment removal",
+    "正在预览清除材料分配"
+  ],
+  "Designing interior / 正在生成内部结构": [
+    "Designing interior",
+    "正在生成内部结构"
+  ],
+  "Attach a PNG, JPEG or WebP screenshot. / 请附加 PNG、JPEG 或 WebP 截图。": [
+    "Attach a PNG, JPEG or WebP screenshot. / PNG JPEG WebP",
+    "请附加 PNG、JPEG 或 WebP 截图。"
+  ],
+  "Screenshot must be under 10 MB. / 截图需小于 10 MB。": [
+    "Screenshot must be under 10 MB. / 10 MB",
+    "截图需小于 10 MB。"
+  ],
+  "This drawing is incomplete or needs updating. / 此图纸尚不完整或需要更新。": [
+    "This drawing is incomplete or needs updating.",
+    "此图纸尚不完整或需要更新。"
+  ],
+  "Choose a resolved model or a local assembly before capturing it. / 请先选择可显示的模型或局部构件。": [
+    "Choose a resolved model or a local assembly before capturing it.",
+    "请先选择可显示的模型或局部构件。"
+  ],
+  "3D capture is unavailable; attach a screenshot instead. / 无法截取三维画面，请附加截图。": [
+    "3D capture is unavailable; attach a screenshot instead.",
+    "无法截取三维画面，请附加截图。"
+  ],
+  "Source image is still loading. / 原图正在加载。": [
+    "Source image is still loading.",
+    "原图正在加载。"
+  ],
+  "Image capture unavailable. / 无法截取图像。": [
+    "Image capture unavailable.",
+    "无法截取图像。"
+  ],
+  "Could not capture drawing. / 无法截取图纸。": [
+    "Could not capture drawing.",
+    "无法截取图纸。"
+  ],
+  "Capture failed. / 截图失败。": [
+    "Capture failed.",
+    "截图失败。"
+  ],
+  "Capturing current view / 正在截取当前视图": [
+    "Capturing current view",
+    "正在截取当前视图"
+  ],
+  "Sending request / 正在提交请求": [
+    "Sending request",
+    "正在提交请求"
+  ],
+  "Preparing edit / 准备修改": [
+    "Preparing edit",
+    "准备修改"
+  ],
+  "Restoring revision / 正在恢复版本": [
+    "Restoring revision",
+    "正在恢复版本"
+  ],
+  "Preparing offline 3D / 正在准备离线三维": [
+    "Preparing offline 3D",
+    "正在准备离线三维"
+  ],
+  " · Local assembly; global placement TBC / 局部构件；整体位置待确认 · ": [
+    "Local assembly; global placement TBC",
+    ""
+  ],
+  "Self-contained 3D file exported. / 已导出独立离线三维文件。": [
+    "Self-contained 3D file exported.",
+    "已导出独立离线三维文件。"
+  ],
+  "平面 Plan": [
+    "Plan",
+    "平面"
+  ],
+  "前立面 Front": [
+    "Front",
+    "前立面"
+  ],
+  "右立面 Right": [
+    "Right",
+    "右立面"
+  ],
+  "后立面 Back": [
+    "Back",
+    "后立面"
+  ],
+  "左立面 Left": [
+    "Left",
+    "左立面"
+  ],
+  "三维 3D": [
+    "3D",
+    "三维 3"
+  ],
+  "应用已退出": [
+    "Application closed",
+    "应用已退出"
+  ],
+  "项目保留在本地。可以关闭此标签页，重新打开 EXE 即可继续。 Your projects are saved. Close this tab and reopen the application to continue.": [
+    "EXE Your projects are saved. Close this tab and reopen the application to continue.",
+    "项目保留在本地。可以关闭此标签页，重新打开"
+  ],
+  "Design Studio · 木作设计工作室": [
+    "Design Studio",
+    "木作设计工作室"
+  ],
+  "Current project / 当前项目": [
+    "Current project",
+    "当前项目"
+  ],
+  "Opening project / 正在打开项目": [
+    "Opening project",
+    "正在打开项目"
+  ],
+  "选择项目 / Choose project": [
+    "Choose project",
+    "选择项目"
+  ],
+  "待连接 AI": [
+    "AI not connected",
+    "待连接"
+  ],
+  "新建项目": [
+    "New project",
+    "新建项目"
+  ],
+  "API key and model settings / 密钥与模型设置": [
+    "API key and model settings",
+    "密钥与模型设置"
+  ],
+  "密钥与模型设置 / API settings": [
+    "API settings",
+    "密钥与模型设置"
+  ],
+  "Opening key settings / 正在打开密钥设置": [
+    "Opening key settings",
+    "正在打开密钥设置"
+  ],
+  "Key settings opened. Save your changes, then refresh here. / 已打开密钥设置，保存更改后请在此刷新。": [
+    "Key settings opened. Save your changes, then refresh here.",
+    "已打开密钥设置，保存更改后请在此刷新。"
+  ],
+  "Refresh / 刷新": [
+    "Refresh",
+    "刷新"
+  ],
+  "Refresh project / 刷新项目": [
+    "Refresh project",
+    "刷新项目"
+  ],
+  "Refreshing / 正在刷新": [
+    "Refreshing",
+    "正在刷新"
+  ],
+  "Exit application / 退出应用": [
+    "Exit application",
+    "退出应用"
+  ],
+  "退出应用 / Exit application": [
+    "Exit application",
+    "退出应用"
+  ],
+  "Closing application / 正在退出应用": [
+    "Closing application",
+    "正在退出应用"
+  ],
+  "Design steps / 设计步骤": [
+    "Design steps",
+    "设计步骤"
+  ],
+  "原图与二维图": [
+    "Source & drawings",
+    "原图与二维图"
+  ],
+  "柜体内部设计": [
+    "Cabinet interiors",
+    "柜体内部设计"
+  ],
+  "三维与联动修改": [
+    "3D & refinement",
+    "三维与联动修改"
+  ],
+  "一个模型，联动二维与三维": [
+    "One model, connected views",
+    "一个模型，联动二维与三维"
+  ],
+  "Dismiss / 关闭提示": [
+    "Dismiss",
+    "关闭提示"
+  ],
+  "已保存的版本保持不变 · Your saved revision is preserved": [
+    "Your saved revision is preserved",
+    "已保存的版本保持不变"
+  ],
+  "待确认的修改 · Preview changes": [
+    "Preview changes",
+    "待确认的修改"
+  ],
+  "图纸尚未通过检查，暂不能应用。 / Drawing checks are incomplete; Apply is unavailable.": [
+    "Drawing checks are incomplete; Apply is unavailable.",
+    "图纸尚未通过检查，暂不能应用。"
+  ],
+  "项核对提示 / Review notes": [
+    "Review notes",
+    "项核对提示"
+  ],
+  "基于 R": [
+    "Based on R",
+    "基于"
+  ],
+  "重新生成联动图纸 Regenerate linked drawings": [
+    "Regenerate linked drawings",
+    "重新生成联动图纸"
+  ],
+  "放弃 Discard": [
+    "Discard",
+    "放弃"
+  ],
+  "Resolve incomplete or outdated drawing views before Apply / 请先处理不完整或过期的图纸视图": [
+    "Resolve incomplete or outdated drawing views before Apply",
+    "请先处理不完整或过期的图纸视图"
+  ],
+  "应用并保存 Apply": [
+    "Apply",
+    "应用并保存"
+  ],
+  "让原图，成为": [
+    "From customer drawings",
+    "让原图，成为"
+  ],
+  "可以推敲的设计。": [
+    "to a design you can explore.",
+    "可以推敲的设计。"
+  ],
+  "Import a drawing. Shape the interior. Explore it in 3D. 导入客户原图，设计柜体内部，用三维检查每一处细节。": [
+    "Import a drawing. Shape the interior. Explore it in 3D.",
+    "导入客户原图，设计柜体内部，用三维检查每一处细节。"
+  ],
+  "导入客户图纸": [
+    "Import customer drawings",
+    "导入客户图纸"
+  ],
+  "打开 A200 + A202 演示": [
+    "Import A200 + A202 sources",
+    "打开"
+  ],
+  "打开已审核 A200 + A202 / Reviewed example": [
+    "A200 + A202 / Reviewed example",
+    "打开已审核"
+  ],
+  "打开已准备的盥洗柜演示 / Ready vanity pilot": [
+    "Ready vanity pilot",
+    "打开已准备的盥洗柜演示"
+  ],
+  "支持 PDF、PNG、JPEG · 文件保存在本地": [
+    "PDF PNG JPEG",
+    "支持"
+  ],
+  "依据原图绘制": [
+    "Evidence-linked drawings",
+    "依据原图绘制"
+  ],
+  "设计内部结构": [
+    "Design cabinet interiors",
+    "设计内部结构"
+  ],
+  "三维联动修改": [
+    "Connected 3D & 2D changes",
+    "三维联动修改"
+  ],
+  "原图 Sources": [
+    "Sources",
+    "原图"
+  ],
+  "构件 Objects": [
+    "Objects",
+    "构件"
+  ],
+  "客户原图": [
+    "Customer sources",
+    "客户原图"
+  ],
+  "Add source / 添加原图": [
+    "Add source",
+    "添加原图"
+  ],
+  "第": [
+    "Page",
+    "第"
+  ],
+  "页 / Page": [
+    "",
+    "页"
+  ],
+  "先导入客户原图 Import a customer drawing": [
+    "Import a customer drawing",
+    "先导入客户原图"
+  ],
+  "添加原图 Add source": [
+    "Add source",
+    "添加原图"
+  ],
+  "分析范围 / Analysis focus": [
+    "Analysis focus",
+    "分析范围"
+  ],
+  "例如：只分析 A200 厨房和 A202 柜体，保留未知尺寸。": [
+    "For example: focus on A200 kitchen and A202 cabinets; keep unknown dimensions TBC.",
+    "例如：只分析"
+  ],
+  "重新分析原图": [
+    "Analyze sources again",
+    "重新分析原图"
+  ],
+  "分析并绘制": [
+    "Analyze & draw",
+    "分析并绘制"
+  ],
+  "先在密钥工具中保存 API 密钥，再点击顶部刷新。 Save your API key, then refresh.": [
+    "API Save your API key, then refresh.",
+    "先在密钥工具中保存"
+  ],
+  "分析会将本项目原图发送给 OpenAI。 Analysis sends this project's sources to OpenAI.": [
+    "OpenAI Analysis sends this project's sources to OpenAI.",
+    "分析会将本项目原图发送给"
+  ],
+  "原图视图对应 · View map": [
+    "View map",
+    "原图视图对应"
+  ],
+  "构件层级": [
+    "Object hierarchy",
+    "构件层级"
+  ],
+  "分析原图后显示构件 Analyze sources to see objects": [
+    "Analyze sources to see objects",
+    "分析原图后显示构件"
+  ],
+  "待确认事项 ·": [
+    "Items to confirm ·",
+    "待确认事项 ·"
+  ],
+  "打开项目文件": [
+    "Open project file",
+    "打开项目文件"
+  ],
+  "所有更改按版本保存": [
+    "Changes saved as revisions",
+    "所有更改按版本保存"
+  ],
+  "预览未保存 · Preview": [
+    "Preview",
+    "预览未保存"
+  ],
+  "已保存 · Saved": [
+    "Saved",
+    "已保存"
+  ],
+  "Undo / 撤销": [
+    "Undo",
+    "撤销"
+  ],
+  "Redo / 重做": [
+    "Redo",
+    "重做"
+  ],
+  "导出 Export": [
+    "Export",
+    "导出"
+  ],
+  "二维图纸 SVG": [
+    "2D drawing SVG",
+    "二维图纸"
+  ],
+  "二维图纸 PDF": [
+    "2D drawing PDF",
+    "二维图纸"
+  ],
+  "当前视图 PNG": [
+    "Current view PNG",
+    "当前视图"
+  ],
+  "Exporting image / 正在导出图像": [
+    "Exporting image",
+    "正在导出图像"
+  ],
+  "Excel 开料清单 Cutting list": [
+    "Excel cutting list",
+    "开料清单 Cutting list"
+  ],
+  "离线三维演示 HTML": [
+    "Offline 3D presentation",
+    "离线三维演示"
+  ],
+  "项目备份 Project archive": [
+    "Project archive",
+    "项目备份"
+  ],
+  "Drawing view / 图纸视图": [
+    "Drawing view",
+    "图纸视图"
+  ],
+  "Source-correspondence drawing / 对应原图的视图": [
+    "Source-correspondence drawing",
+    "对应原图的视图"
+  ],
+  "原图对应视图 ▾": [
+    "Source drawing views ▾",
+    "原图对应视图 ▾"
+  ],
+  "空间投影检查图 · Spatial checking view": [
+    "Spatial checking view",
+    "空间投影检查图"
+  ],
+  "图形 / shapes ·": [
+    "shapes",
+    "图形"
+  ],
+  "尺寸 / dimensions": [
+    "dimensions",
+    "尺寸"
+  ],
+  "保留原图标注单位 · 不按比例 NTS / Original dimension units · NTS": [
+    "NTS / Original dimension units · NTS",
+    "保留原图标注单位 · 不按比例"
+  ],
+  "项图纸提示 / Drawing issues": [
+    "Drawing issues",
+    "项图纸提示"
+  ],
+  "当前视图缺少可绘制轮廓；构件列表有内容不代表图纸完整。 / This view lacks drawable contours; an object list does not establish drawing completeness.": [
+    "This view lacks drawable contours; an object list does not establish drawing completeness.",
+    "当前视图缺少可绘制轮廓；构件列表有内容不代表图纸完整。"
+  ],
+  "Known local dimensions; no global location is asserted. / 显示已知局部尺寸，不代表已确定整体位置。": [
+    "Known local dimensions; no global location is asserted.",
+    "显示已知局部尺寸，不代表已确定整体位置。"
+  ],
+  "Local axes only; global position and orientation remain TBC. / 仅使用局部坐标轴；整体位置与方向仍待确认。": [
+    "Local axes only; global position and orientation remain TBC.",
+    "仅使用局部坐标轴；整体位置与方向仍待确认。"
+  ],
+  "Choose a local assembly in the 3D scope control to inspect known geometry. / 可在三维范围中选择局部构件，查看其已知结构。": [
+    "Choose a local assembly in the 3D scope control to inspect known geometry.",
+    "可在三维范围中选择局部构件，查看其已知结构。"
+  ],
+  "项提示 / Issues": [
+    "Issues",
+    "项提示"
+  ],
+  "· 原始依据 Source evidence": [
+    "Source evidence",
+    "原始依据"
+  ],
+  "从客户原图开始": [
+    "Start with customer drawings",
+    "从客户原图开始"
+  ],
+  "导入原图": [
+    "Import source",
+    "导入原图"
+  ],
+  "图纸需要更新": [
+    "Drawing needs updating",
+    "图纸需要更新"
+  ],
+  "当前视图尚不完整": [
+    "This view is incomplete",
+    "当前视图尚不完整"
+  ],
+  "The design changed. Regenerate linked drawings for this preview. / 设计已改变，请为此预览重新生成联动图纸。": [
+    "The design changed. Regenerate linked drawings for this preview.",
+    "设计已改变，请为此预览重新生成联动图纸。"
+  ],
+  "No usable drawing geometry exists in this view. Review the source and the missing information. / 当前视图没有可用图形，请检查原图及缺失信息。": [
+    "No usable drawing geometry exists in this view. Review the source and the missing information.",
+    "当前视图没有可用图形，请检查原图及缺失信息。"
+  ],
+  "查看原图 View sources": [
+    "View sources",
+    "查看原图"
+  ],
+  "整体位置仍待确认": [
+    "Global placement is still TBC",
+    "整体位置仍待确认"
+  ],
+  "等待生成三维模型": [
+    "Waiting for a 3D model",
+    "等待生成三维模型"
+  ],
+  "Choose a local assembly below to inspect its known structure. / 请在下方选择局部构件，查看已知结构。": [
+    "Choose a local assembly below to inspect its known structure.",
+    "请在下方选择局部构件，查看已知结构。"
+  ],
+  "拖动旋转 · 滚轮缩放 · 点击选择": [
+    "Drag to orbit · Scroll to zoom · Click to select",
+    "拖动旋转 · 滚轮缩放 · 点击选择"
+  ],
+  "3D scope / 三维范围": [
+    "3D scope",
+    "三维范围"
+  ],
+  "整体 World": [
+    "World",
+    "整体"
+  ],
+  "局部 Local ·": [
+    "Local",
+    "局部"
+  ],
+  "3D camera / 三维视角": [
+    "3D camera",
+    "三维视角"
+  ],
+  "轴测 3D": [
+    "3D",
+    "轴测 3"
+  ],
+  "前 Front": [
+    "Front",
+    "前"
+  ],
+  "后 Back": [
+    "Back",
+    "后"
+  ],
+  "顶部 Top": [
+    "Top",
+    "顶部"
+  ],
+  "全图 Fit": [
+    "Fit",
+    "全图"
+  ],
+  "Zoom out / 缩小": [
+    "Zoom out",
+    "缩小"
+  ],
+  "Zoom in / 放大": [
+    "Zoom in",
+    "放大"
+  ],
+  "Fit view / 适应窗口": [
+    "Fit view",
+    "适应窗口"
+  ],
+  "适应 Fit": [
+    "Fit",
+    "适应"
+  ],
+  "Property units / 属性单位": [
+    "Property units",
+    "属性单位"
+  ],
+  "Units / 单位": [
+    "Units",
+    "单位"
+  ],
+  "Only property fields convert units; source drawing labels retain their original units and are NTS. / 仅属性输入换算单位；原图标注保留原单位且不按比例。": [
+    "Only property fields convert units; source drawing labels retain their original units and are NTS.",
+    "仅属性输入换算单位；原图标注保留原单位且不按比例。"
+  ],
+  "属性 毫米 mm": [
+    "Properties · millimetres mm",
+    "属性 毫米"
+  ],
+  "毫米 mm": [
+    "mm",
+    "毫米"
+  ],
+  "属性 英寸 in": [
+    "Properties · inches in",
+    "属性 英寸"
+  ],
+  "英寸 in": [
+    "in",
+    "英寸"
+  ],
+  "尺寸": [
+    "Dimensions",
+    "尺寸"
+  ],
+  "Door swing and drawer pull-out symbols. Display only—not an animation. / 柜门开启方向及抽屉拉出符号，仅显示符号，不是开启动画。": [
+    "Door swing and drawer pull-out symbols. Display only—not an animation.",
+    "柜门开启方向及抽屉拉出符号，仅显示符号，不是开启动画。"
+  ],
+  "开启线": [
+    "Opening marks",
+    "开启线"
+  ],
+  "看内部": [
+    "Inside",
+    "看内部"
+  ],
+  "显示 ▾": [
+    "Display ▾",
+    "显示 ▾"
+  ],
+  "尺寸范围 / Dimensions": [
+    "Dimensions",
+    "尺寸范围"
+  ],
+  "关闭 Off": [
+    "Off",
+    "关闭"
+  ],
+  "选中构件 Selected": [
+    "Selected",
+    "选中构件"
+  ],
+  "全部 All": [
+    "All",
+    "全部"
+  ],
+  "暂定尺寸 Provisional": [
+    "Provisional",
+    "暂定尺寸"
+  ],
+  "构件自身尺寸 / Component sizes": [
+    "Component sizes",
+    "构件自身尺寸"
+  ],
+  "构件文字 / Object labels": [
+    "Object labels",
+    "构件文字"
+  ],
+  "视图索引 / View references": [
+    "View references",
+    "视图索引"
+  ],
+  "透明周边 / Transparent context": [
+    "Transparent context",
+    "透明周边"
+  ],
+  "外观 / Appearance": [
+    "Appearance",
+    "外观"
+  ],
+  "白面黑线 Outlines": [
+    "Outlines",
+    "白面黑线"
+  ],
+  "预设颜色 Colors": [
+    "Colors",
+    "预设颜色"
+  ],
+  "点击构件查看尺寸 · Select an object to inspect it": [
+    "Select an object to inspect it",
+    "点击构件查看尺寸"
+  ],
+  "Source contour; thickness not asserted / 原图轮廓，未指定板厚": [
+    "Source contour; thickness not asserted",
+    "原图轮廓，未指定板厚"
+  ],
+  "PROPERTIES / 属性": [
+    "PROPERTIES",
+    "属性"
+  ],
+  "构件尺寸": [
+    "Component dimensions",
+    "构件尺寸"
+  ],
+  "设计": [
+    "Designed",
+    "设计"
+  ],
+  "已修改": [
+    "Amended",
+    "已修改"
+  ],
+  "原图": [
+    "Source",
+    "原图"
+  ],
+  "Find dimension / 查找尺寸": [
+    "Find dimension",
+    "查找尺寸"
+  ],
+  "查找尺寸 · Find a dimension": [
+    "Find a dimension",
+    "查找尺寸"
+  ],
+  "选中一个构件，查看和修改其控制尺寸。 Select a component to inspect its dimensions.": [
+    "Select a component to inspect its dimensions.",
+    "选中一个构件，查看和修改其控制尺寸。"
+  ],
+  "显示前 50 项，请搜索具体尺寸。 / Showing first 50; search for a dimension.": [
+    "50 / Showing first 50; search for a dimension.",
+    "显示前 50 项，请搜索具体尺寸。"
+  ],
+  "INTERIOR / 柜内设计": [
+    "INTERIOR",
+    "柜内设计"
+  ],
+  "把内部，设计清楚。": [
+    "Design the inside.",
+    "把内部，设计清楚。"
+  ],
+  "目标柜体 / Cabinet": [
+    "Cabinet",
+    "目标柜体"
+  ],
+  "Cabinet interior target / 内部设计目标柜体": [
+    "Cabinet interior target",
+    "内部设计目标柜体"
+  ],
+  "选择柜体 Select cabinet": [
+    "Select cabinet",
+    "选择柜体"
+  ],
+  "板厚 Thickness": [
+    "Thickness",
+    "板厚"
+  ],
+  "背板 Back": [
+    "Back",
+    "背板"
+  ],
+  "层板 Shelves": [
+    "Shelves",
+    "层板"
+  ],
+  "竖隔板 Dividers": [
+    "Dividers",
+    "竖隔板"
+  ],
+  "抽屉 Drawers": [
+    "Drawers",
+    "抽屉"
+  ],
+  "间隙 Clearance": [
+    "Clearance",
+    "间隙"
+  ],
+  "层板／隔板与抽屉布局择一，另一种会自动清零。 Choose shelves/dividers or drawers; the other layout resets.": [
+    "Choose shelves/dividers or drawers; the other layout resets.",
+    "层板／隔板与抽屉布局择一，另一种会自动清零。"
+  ],
+  "所选外形用于柜体设计。 Selected envelope is used for cabinet design.": [
+    "Selected envelope is used for cabinet design.",
+    "所选外形用于柜体设计。"
+  ],
+  "这是你的内部设计方案，将保留原柜体外形。 Designed additions stay separate from source facts.": [
+    "Designed additions stay separate from source facts.",
+    "这是你的内部设计方案，将保留原柜体外形。"
+  ],
+  "预览内部结构 Preview": [
+    "Preview",
+    "预览内部结构"
+  ],
+  "说出你的修改": [
+    "Describe your changes",
+    "说出你的修改"
+  ],
+  "Design instruction / 设计修改要求": [
+    "Design instruction",
+    "设计修改要求"
+  ],
+  "例如：把选中柜体加宽到 900mm，内部改为两层层板。\nYou can also paste a screenshot here.": [
+    "900mm You can also paste a screenshot here.",
+    "例如：把选中柜体加宽到 900"
+  ],
+  "Screenshot attached to this request / 本次请求附加的截图": [
+    "Screenshot attached to this request",
+    "本次请求附加的截图"
+  ],
+  "Remove screenshot / 移除截图": [
+    "Remove screenshot",
+    "移除截图"
+  ],
+  "附加截图": [
+    "Attach screenshot",
+    "附加截图"
+  ],
+  "截取当前视图": [
+    "Capture current view",
+    "截取当前视图"
+  ],
+  "生成修改预览": [
+    "Preview changes",
+    "生成修改预览"
+  ],
+  "先预览，再由你应用。支持中文或英文。 Review every change before applying it.": [
+    "Review every change before applying it.",
+    "先预览，再由你应用。支持中文或英文。"
+  ],
+  "REVISION HISTORY / 版本历史": [
+    "REVISION HISTORY",
+    "版本历史"
+  ],
+  "Revision to restore / 待恢复版本": [
+    "Revision to restore",
+    "待恢复版本"
+  ],
+  "选择历史版本": [
+    "Choose a revision",
+    "选择历史版本"
+  ],
+  "恢复": [
+    "Restore",
+    "恢复"
+  ],
+  "恢复将创建新版本，不删除历史。 Restore creates a new revision.": [
+    "Restore creates a new revision.",
+    "恢复将创建新版本，不删除历史。"
+  ],
+  "本地项目 · Local workspace": [
+    "Local workspace",
+    "本地项目"
+  ],
+  "客户确认设计 · Customer-review design": [
+    "Customer-review design",
+    "客户确认设计"
+  ],
+  "Opening project archive / 正在打开项目文件": [
+    "Opening project archive",
+    "正在打开项目文件"
+  ],
+  "NEW PROJECT / 新建项目": [
+    "NEW PROJECT",
+    "新建项目"
+  ],
+  "Close / 关闭": [
+    "Close",
+    "关闭"
+  ],
+  "开始一个新的设计。": [
+    "Start a new design.",
+    "开始一个新的设计。"
+  ],
+  "Each project keeps its own sources and history. 每个项目独立保存原图、模型和版本历史。": [
+    "Each project keeps its own sources and history.",
+    "每个项目独立保存原图、模型和版本历史。"
+  ],
+  "项目名称 / Project name": [
+    "Project name",
+    "项目名称"
+  ],
+  "例如：李先生 · 厨房柜体": [
+    "For example: West 15th Avenue kitchen",
+    "例如：李先生 · 厨房柜体"
+  ],
+  "创建项目 Create": [
+    "Create",
+    "创建项目"
+  ],
+  "关闭 Close": [
+    "Close",
+    "关闭"
+  ]
+}
