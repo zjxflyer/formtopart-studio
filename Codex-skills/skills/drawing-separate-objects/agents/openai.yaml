@@ -1,0 +1,7 @@
+interface:
+  display_name: "Separate Objects"
+  short_description: "Extract standalone views with source-bound dimensions"
+  default_prompt: "Use $drawing-separate-objects to extract this assembly as a standalone drawing with its relevant dimensions."
+policy:
+  allow_implicit_invocation: true
+
