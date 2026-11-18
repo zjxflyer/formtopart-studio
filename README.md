@@ -18,7 +18,7 @@ Turn customer PDF drawings into a reviewable design workspace for interiors, cab
 
 Open the watch page and press Play for narration with sound enabled. GitHub's inline preview starts muted.
 
-https://github.com/user-attachments/assets/1282c042-5daa-48aa-adba-9f4743d00233
+https://github.com/user-attachments/assets/56ea37af-b991-48ce-9274-f33ba5539508
 
 ## From drawings to a shared design review
 
