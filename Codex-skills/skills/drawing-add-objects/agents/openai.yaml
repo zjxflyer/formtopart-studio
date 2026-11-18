@@ -1,0 +1,7 @@
+interface:
+  display_name: "Add Objects"
+  short_description: "Insert drawing objects without resizing neighbours"
+  default_prompt: "Use $drawing-add-objects to add this object and preserve the surrounding drawing geometry."
+policy:
+  allow_implicit_invocation: true
+
