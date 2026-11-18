@@ -37,6 +37,7 @@ projects/
 test-results/
 
 # Explicitly approved public sample assets
+!/customer design drawing-simple.pdf
 !/desktop-app/public-sample/reference-demo/A200-Plan-and-Elevations.pdf
 !/desktop-app/public-sample/reference-demo/A202-Plan-and-Elevations.pdf
 !/desktop-app/public-sample/showcase/Public-Showcase.vwc

@@ -10,7 +10,7 @@ Turn customer PDF drawings into a reviewable design workspace for interiors, cab
 ![Windows x64](https://img.shields.io/badge/platform-Windows%20x64-0078D4)
 ![6 Codex skills](https://img.shields.io/badge/Codex-6%20drawing%20skills-0F766E)
 
-**[Windows app](https://github.com/zjxflyer/formtopart-studio/releases/latest/download/FormToPart-Studio.exe)** · **[Skills ZIP](https://github.com/zjxflyer/formtopart-studio/releases/latest/download/Codex-Drawing-Workflow-v7.zip)** · **[Source ZIP](https://github.com/zjxflyer/formtopart-studio/releases/latest/download/FormToPart-Studio-v0.8.29-Source.zip)** · **[Workflow handbook](Codex-skills/handbook/Drawing-Workflow-Handbook.pdf)**
+**[Windows app](https://github.com/zjxflyer/formtopart-studio/releases/latest/download/FormToPart-Studio.exe)** · **[Test PDF](https://github.com/zjxflyer/formtopart-studio/raw/refs/heads/main/customer%20design%20drawing-simple.pdf)** · **[Skills ZIP](https://github.com/zjxflyer/formtopart-studio/releases/latest/download/Codex-Drawing-Workflow-v7.zip)** · **[Source ZIP](https://github.com/zjxflyer/formtopart-studio/releases/latest/download/FormToPart-Studio-v0.8.29-Source.zip)** · **[Workflow handbook](Codex-skills/handbook/Drawing-Workflow-Handbook.pdf)**
 
 **[▶ Watch with sound and captions](https://zjxflyer.github.io/formtopart-studio/)**
 
@@ -48,6 +48,7 @@ FormToPart Studio brings source PDFs, 2D drawings, editable 3D models, board mat
 | Download | Start here if you want to… |
 | --- | --- |
 | **[Windows app](https://github.com/zjxflyer/formtopart-studio/releases/latest/download/FormToPart-Studio.exe)** | Run Studio and explore the built-in demo. The prebuilt app does not require Python, Node.js or the development build tools. |
+| **[Test drawing PDF](https://github.com/zjxflyer/formtopart-studio/raw/refs/heads/main/customer%20design%20drawing-simple.pdf)** | Try importing a three-page customer drawing, then test AI drawing work with the app or Codex skills. See [sample test steps](#test-with-the-sample-pdf). |
 | **[Codex skills ZIP](https://github.com/zjxflyer/formtopart-studio/releases/latest/download/Codex-Drawing-Workflow-v7.zip)** | Use the six drawing skills in Codex with your own source files. See [installation below](#start-with-the-skills). |
 | **[Source ZIP](https://github.com/zjxflyer/formtopart-studio/releases/latest/download/FormToPart-Studio-v0.8.29-Source.zip)** | Inspect the complete published source or build Studio on Windows. See [build instructions](#build-on-windows) and [licensing](#review-scope-attribution-and-licensing). |
 
@@ -73,6 +74,21 @@ If you previously opened the 0.8.27 GitHub edition, this update adds the correct
 The bundled `.vwc` sample contains the supplied redacted `Original-customer-design_A200+A202.pdf`. Its three pages cover A101 floor plans, the A200 kitchen and the A202 powder room. Linked 2D and 3D review assets are included beside the sample in `desktop-app/public-sample/`.
 
 </details>
+
+## Test with the sample PDF
+
+**[Download customer design drawing-simple.pdf](https://github.com/zjxflyer/formtopart-studio/raw/refs/heads/main/customer%20design%20drawing-simple.pdf)** · **[Preview the PDF](customer%20design%20drawing-simple.pdf)**
+
+The three-page test drawing contains **A101 floor plans**, **A200 kitchen plans and elevations**, and **A202 powder-room elevations**. The highlighted areas provide useful starting points for a small drawing test. This is the standalone source PDF used by the bundled showcase project.
+
+1. Download the PDF and the [Windows app](https://github.com/zjxflyer/formtopart-studio/releases/latest/download/FormToPart-Studio.exe).
+2. Open Studio, choose **New project**, enter a **Project name**, then click **Create**.
+3. In Step 1, click **Import source** (or **Add original PDF**) and select the downloaded PDF. Wait for the first-page preview.
+4. Browse all three source pages. Use page 2 for the kitchen or page 3 for the powder room, then click **Continue to Step 2** to continue the drawing workflow.
+
+**Expected import result:** the original three-page PDF is available in the new project. Import and PDF preview work locally. For AI drawing generation, configure your own OpenAI API key through **Assistant settings**. In Step 2, use **Build all 2D groups** for the full scope, or **Build 2D** for a restricted scope, then compare the generated views with the source dimensions and annotations.
+
+To test the **Codex skills**, follow [Start with the skills](#start-with-the-skills), place the PDF in your own project folder, and start a fresh chat with `$drawing-workflow`. Begin with one highlighted kitchen or powder-room view and check the result against the PDF before expanding the test.
 
 ## Six Codex skills
 
@@ -171,6 +187,7 @@ The Codex package has its own [validation summary and limitations](Codex-skills/
 ├── Codex-skills/          Six skills, handbook, guarded installer and evidence
 ├── desktop-app/           Windows host, Python service and bundled sample
 ├── frontend/              Studio interface and 3D workspace
+├── customer design drawing-simple.pdf  Downloadable test drawing
 ├── docs/images/           Product video poster and screenshots
 ├── third-party/           Dependency notices and license material
 ├── build.ps1              Windows build entry point
