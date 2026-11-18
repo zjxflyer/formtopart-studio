@@ -1,0 +1,204 @@
+{
+  "status": "PASS",
+  "pages": 20,
+  "contents_page": 2,
+  "contents_single_page": true,
+  "sections": 14,
+  "internal_navigation": "PDFIUM_RESOLVED_ALL",
+  "link_count": 47,
+  "nonspace_glyph_bounds": "PASS",
+  "markdown_body_present_in_pdf": "PASS",
+  "missing_or_replacement_characters": 0,
+  "pdf_sha256": "7ab05b07ea68c9a2752b9e4ecc5d32eb35e68e923d09be687fd0165eada98412",
+  "markdown_sha256": "7dd8947837dc08e22c74245fe213893a2f56aba6cfce7e09082dc6fb378a349f",
+  "destinations": [
+    {
+      "page": 2,
+      "target": 2
+    },
+    {
+      "page": 2,
+      "target": 3
+    },
+    {
+      "page": 2,
+      "target": 3
+    },
+    {
+      "page": 2,
+      "target": 4
+    },
+    {
+      "page": 2,
+      "target": 4
+    },
+    {
+      "page": 2,
+      "target": 5
+    },
+    {
+      "page": 2,
+      "target": 5
+    },
+    {
+      "page": 2,
+      "target": 6
+    },
+    {
+      "page": 2,
+      "target": 6
+    },
+    {
+      "page": 2,
+      "target": 7
+    },
+    {
+      "page": 2,
+      "target": 7
+    },
+    {
+      "page": 2,
+      "target": 8
+    },
+    {
+      "page": 2,
+      "target": 8
+    },
+    {
+      "page": 2,
+      "target": 9
+    },
+    {
+      "page": 2,
+      "target": 9
+    },
+    {
+      "page": 2,
+      "target": 10
+    },
+    {
+      "page": 2,
+      "target": 10
+    },
+    {
+      "page": 2,
+      "target": 11
+    },
+    {
+      "page": 2,
+      "target": 11
+    },
+    {
+      "page": 2,
+      "target": 12
+    },
+    {
+      "page": 2,
+      "target": 12
+    },
+    {
+      "page": 2,
+      "target": 13
+    },
+    {
+      "page": 2,
+      "target": 13
+    },
+    {
+      "page": 2,
+      "target": 14
+    },
+    {
+      "page": 2,
+      "target": 14
+    },
+    {
+      "page": 2,
+      "target": 15
+    },
+    {
+      "page": 2,
+      "target": 15
+    },
+    {
+      "page": 2,
+      "target": 17
+    },
+    {
+      "page": 2,
+      "target": 17
+    },
+    {
+      "page": 3,
+      "target": 2
+    },
+    {
+      "page": 4,
+      "target": 2
+    },
+    {
+      "page": 5,
+      "target": 2
+    },
+    {
+      "page": 6,
+      "target": 2
+    },
+    {
+      "page": 7,
+      "target": 2
+    },
+    {
+      "page": 8,
+      "target": 2
+    },
+    {
+      "page": 9,
+      "target": 2
+    },
+    {
+      "page": 10,
+      "target": 2
+    },
+    {
+      "page": 11,
+      "target": 2
+    },
+    {
+      "page": 12,
+      "target": 2
+    },
+    {
+      "page": 13,
+      "target": 2
+    },
+    {
+      "page": 14,
+      "target": 2
+    },
+    {
+      "page": 15,
+      "target": 2
+    },
+    {
+      "page": 16,
+      "target": 2
+    },
+    {
+      "page": 17,
+      "target": 2
+    },
+    {
+      "page": 18,
+      "target": 2
+    },
+    {
+      "page": 19,
+      "target": 2
+    },
+    {
+      "page": 20,
+      "target": 2
+    }
+  ]
+}

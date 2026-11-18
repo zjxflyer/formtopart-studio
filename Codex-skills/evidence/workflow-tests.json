@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "tests": 29,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "local_links_checked": 30,
+  "frontmatter": "PASS",
+  "legacy_project_access": "DENIED_BY_PYTHON_AUDIT_HOOK",
+  "denied_access_attempts": [],
+  "tested_files": {
+    "drawing-workflow\\scripts\\test_workflow.py": "7c9d14cbcf67a93f5e4ef24b13a24a0da45071b316a6ca5d2f1487fb57033fd6",
+    "drawing-workflow\\scripts\\workflow.py": "6c0c2924b6ee56419715d652c8b1e113eb529fbf0d76ccc07526d959e14c8d82"
+  },
+  "quick_validate": "UNAVAILABLE_MISSING_PYYAML; explicit frontmatter/local-links and isolated behavior checks used"
+}

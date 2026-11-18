@@ -1,0 +1,37 @@
+{
+  "name": "Drawing Workflow",
+  "version": "Effective Version 7",
+  "date": "2026-10-22",
+  "activated_changes": [
+    "new drawing-workflow shared skill and four portable role references",
+    "technical source-fidelity prevention and concise workflow routing"
+  ],
+  "unchanged_companions": [
+    "drawing-add-objects",
+    "drawing-separate-objects",
+    "interior-drawing-standards",
+    "drawing-3d-workspace"
+  ],
+  "model_profile": "Owner task/test preference: GPT-6.1 Sol Medium or higher; 2 initial total Phase2 rounds, 1 manual issue pass, 2 corrective full-review rounds. Phase1 separate.",
+  "validation": {
+    "isolated_workflow_tests": 29,
+    "independent_export_cases": 5,
+    "guarded_bundle_tests": {
+      "passed": 22,
+      "skipped": 1,
+      "skip_reason": "Windows denied both actual symlink and junction creation; reparse-rejection branch tested separately"
+    },
+    "old_anchor_listed_files_unchanged": 301,
+    "pdf_pages": 20,
+    "pdf_internal_links": 47,
+    "fresh_context_fixture": "PASS_WITH_LIMITATIONS"
+  },
+  "limits": [
+    "Bookkeeping helper does not draw or spawn agents.",
+    "No universal model/cycle optimum or error-free first attempt claim.",
+    "Optional skill-creator quick validator unavailable without PyYAML; explicit structure/link and behavior checks passed.",
+    "Simulated project handoffs are workflow tests, not customer acceptance.",
+    "Fresh-context shared-file reuse is tested, not a claim that this already-open chat tool catalog refreshed.",
+    "Do not rebind in-flight tasks or modify customer artifacts as part of installation."
+  ]
+}
