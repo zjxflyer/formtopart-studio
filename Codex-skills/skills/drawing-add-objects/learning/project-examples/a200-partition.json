@@ -1,0 +1,19 @@
+{
+  "project": "A200 Front Unit Kitchen 2",
+  "example_type": "insertion_requiring_translation",
+  "observation": "A customer-requested vertical wood partition was inserted between fixed left construction and the complete right assembly.",
+  "useful_behavior": [
+    "derive the partition contour from the marked source condition",
+    "store the requested width as a user amendment",
+    "translate the right assembly and its symbols together",
+    "preserve component widths and heights",
+    "bind a displayed dimension to the partition sides"
+  ],
+  "project_facts_not_shared_rules": [
+    "4-inch partition width",
+    "full vertical extent used in this revision",
+    "A200 component IDs and coordinates"
+  ],
+  "verification_scope": "one corrected customer elevation; not forward-tested on another design"
+}
+
