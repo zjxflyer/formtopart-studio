@@ -1,0 +1,14 @@
+{
+  "id": "contextual-coordinator-todo-register",
+  "scope": "invariant",
+  "observation": "New requests and verified progress can make a saved task obsolete, already complete, blocked, or subject to a changed authorized outcome. Independent audit also found premature dependency dispatch and stale cancellation reasons.",
+  "cause": "Unsynchronized lists and unreviewed status changes preserve outdated actions without preserving their intent and current execution eligibility.",
+  "proposed_rule": "Use one persistent register. Preserve original requests and change history, reassess the latest context before starting or resuming, require fresh state-bound PROCEED reviews and completed prerequisites, and retain evidence for completion, cancellation or linked supersession. Never reset drawing budgets through task edits.",
+  "evidence": ["references/todo-list.md", "references/roles/coordinate.md", "scripts/test_workflow.py"],
+  "verification": {"regression": "passed", "instruction_review": "passed", "visual": "not-applicable"},
+  "behavioral_change": true,
+  "visual_change": false,
+  "basis": "verified-correction",
+  "status": "adopted",
+  "qualification": "Isolated state, CLI, negative and recovery tests plus independent contract review. Hash freshness records the considered state; the coordinator remains responsible for semantic judgment and authorization."
+}

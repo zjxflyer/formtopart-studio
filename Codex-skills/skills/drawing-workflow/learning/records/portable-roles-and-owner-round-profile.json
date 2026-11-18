@@ -1,0 +1,22 @@
+{
+  "id": "portable-roles-and-owner-round-profile",
+  "scope": "preference",
+  "observation": "The owner requests portable drawing phases, four distinct roles, verified learning and an initial 2 / manual 1 / full-review 2 practical profile.",
+  "cause": "Old project roles depended on project scripts, historical exceptions and mixed repair/pair counters.",
+  "proposed_rule": "Use project-provided relative inputs, distinct role handoffs, independent Check and Summary gates; track major rounds, revisions and check events separately; derive sheet names and totals from the manifest.",
+  "evidence": [
+    "references/workflow.md",
+    "references/project-state.md",
+    "scripts/test_workflow.py"
+  ],
+  "verification": {
+    "regression": "passed",
+    "visual": "passed",
+    "instruction_review": "passed"
+  },
+  "behavioral_change": true,
+  "visual_change": false,
+  "basis": "explicit-user-preference",
+  "status": "adopted",
+  "qualification": "Owner-requested workflow with scoped synthetic and isolated tests; no universal performance claim."
+}
