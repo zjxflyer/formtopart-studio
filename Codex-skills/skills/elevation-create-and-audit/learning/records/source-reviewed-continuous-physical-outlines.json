@@ -1,0 +1,22 @@
+{
+  "id": "source-reviewed-continuous-physical-outlines",
+  "scope": "invariant",
+  "observation": "A201 output used solid stroke styling but still contained physical outline breaks and dimension-label white masks over edges.",
+  "cause": "Line-style checks did not verify complete interval coverage independently of fragmented source primitives and annotation backgrounds.",
+  "proposed_rule": "For each source-reviewed physical outline, verify continuous visible coverage between bound endpoints and corners in actual SVG/PDF/PNG output; repair only evidenced collinear breaks, reject opaque label occlusion, and preserve registered genuine gaps and dashed operation/reference marks.",
+  "evidence": [
+    "projects/4404-w15-front-l1/source/original.pdf#page=6",
+    "benchmarks/a201-continuous-outline-r03-20261018/independent-build-1/contour-register.json",
+    "benchmarks/a201-continuous-outline-r03-20261018/independent-build-1/outline-repairs.json",
+    "benchmarks/a201-continuous-outline-r03-20261018/independent-build-1/audit-results.json"
+  ],
+  "verification": {
+    "regression": "passed",
+    "visual": "passed",
+    "instruction_review": "passed"
+  },
+  "behavioral_change": true,
+  "visual_change": true,
+  "basis": "verified-correction",
+  "status": "adopted"
+}

@@ -1,0 +1,37 @@
+{
+  "id": "a200-431-assembly-container-floor-gaps",
+  "date": "2026-10-14",
+  "scope": "invariant",
+  "status": "adopted",
+  "basis": "verified-correction",
+  "behavioral_change": true,
+  "visual_change": true,
+  "observation": "The Kitchen 3 slat assembly contained twelve valid physical slats, but its rectangular ownership container was also rendered with an opaque fill and complete perimeter. The container therefore introduced a false continuous floor line and visually occupied the open intervals between slats.",
+  "cause": "Component extent and visible construction were represented by the same polygon-rendering behavior. The WD01 annotation was attached at assembly level without an explicit material-owner distinction, allowing a grouping boundary to be mistaken for a physical wood surface.",
+  "proposed_rule": "Treat assembly bounds as ownership and extent data unless source evidence independently authorizes a visible fill or perimeter; attach material labels to their actual rendered owners; preserve intentional gaps; and validate actual exports for connecting strokes, covering fills, and missing child edges.",
+  "adopted_rules": [
+    "Assembly or group bounds do not automatically create a visible perimeter or opaque fill.",
+    "Each visible fill and physical edge must have an evidenced owner distinct from a non-rendering assembly container.",
+    "Material codes describe the components they identify and do not authorize geometry across intentional gaps.",
+    "Validate open intervals in exported SVG, PNG, and rasterized PDF while separately confirming that every required child edge remains complete."
+  ],
+  "evidence": [
+    "benchmarks/a200-native-pdf-kitchens-431/inputs/revision-04-correction.json",
+    "benchmarks/a200-native-pdf-kitchens-431/model/kitchen-3-model.json",
+    "benchmarks/a200-native-pdf-kitchens-431/audit/detail-kitchen-3-floor-gaps.png",
+    "benchmarks/a200-native-pdf-kitchens-431/audit/mutation-tests.json",
+    "benchmarks/a200-native-pdf-kitchens-431/audit/repeatability.json",
+    "benchmarks/a200-native-pdf-kitchens-431/audit/source-review.json",
+    "benchmarks/a200-native-pdf-kitchens-431/audit/visual-review.json"
+  ],
+  "verification": {
+    "regression": "passed",
+    "visual": "passed",
+    "instruction_review": "passed"
+  },
+  "verification_scope": "A200 Kitchen 3 revision 04; source/revision/candidate comparison, component ownership checks, three floor-gap export mutations, SVG/PNG/vector PDF, rasterized PDF, and two-build repeatability.",
+  "exclusions": [
+    "No project-specific slat count, width, spacing, or A200 geometry becomes a universal default.",
+    "Effective Version skill 3 and earlier frozen restoration points remain unchanged."
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "bounded-correction-staging-and-proportional-audit",
+  "date": "2026-10-17",
+  "scope": "preference",
+  "observation": "The owner approved a focused correction procedure after reviewing avoidable diagnostic loops, broad reruns and intermediate publication.",
+  "cause": "Existing evidence and acceptance rules were not consistently applied as early decision gates.",
+  "proposed_rule": "Define the bounded change, preview the affected shape early, use proportional checks, reduce repeated failures to a minimal reproduction, and publish only the reviewed candidate from isolated staging. Use targeted discovery and managed-file staging.",
+  "evidence": [
+    "Owner-approved Focused working-skill update: efficient, evidence-led corrections, 2026-10-17",
+    "Vancouver Wood Carving/tools/skill-correction-efficiency-20261017/decision-cases.json",
+    "Vancouver Wood Carving/projects/a202/evidence/procedure-review-20261017.json"
+  ],
+  "verification": {
+    "regression": "not-applicable",
+    "visual": "not-applicable",
+    "instruction_review": "passed"
+  },
+  "behavioral_change": false,
+  "visual_change": false,
+  "basis": "explicit-user-preference",
+  "status": "adopted",
+  "limits": "Instruction-only review; no fresh drawing, runtime, source-accuracy, phone or customer-acceptance claim. Existing required audits remain in force. Project-specific facts stay in project evidence."
+}

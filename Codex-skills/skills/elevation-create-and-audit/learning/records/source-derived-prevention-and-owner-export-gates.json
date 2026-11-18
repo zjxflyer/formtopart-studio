@@ -1,0 +1,22 @@
+{
+  "id": "source-derived-prevention-and-owner-export-gates",
+  "scope": "invariant",
+  "observation": "Inherited or generated inventories and internally consistent exports can omit real source profiles, dimensions, operations or functional fixtures.",
+  "cause": "Circular requirement checks, legacy cropping, unverified transforms and pattern/owner classification can hide actual source content.",
+  "proposed_rule": "Independently inventory original physical and annotation owners; compare complete pilots and actual exports; verify full connected profiles, source paint, current mapping, isolated operation tips and glyph ink. Transfer verified prevention into Create while keeping independent Check.",
+  "evidence": [
+    "regression/source-fidelity-cases/source.json",
+    "regression/source-fidelity-cases/evaluation.json",
+    "Bundled compact historical provenance; optional, not runtime dependency"
+  ],
+  "verification": {
+    "regression": "passed",
+    "visual": "passed",
+    "instruction_review": "passed"
+  },
+  "behavioral_change": true,
+  "visual_change": false,
+  "basis": "verified-correction",
+  "status": "adopted",
+  "qualification": "Scoped instruction and decision transfer: one correct export and four actual export defects independently classified. No renderer implementation or new customer acceptance claimed."
+}

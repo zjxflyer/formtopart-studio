@@ -1,0 +1,24 @@
+{
+  "id": "dimensioned-fixtures-retain-source-silhouette",
+  "scope": "invariant",
+  "basis": "verified-correction",
+  "status": "adopted",
+  "observation": "A202 3/A202 omitted two wall-light silhouettes even though the source dimensioned their offset, center spacing and height.",
+  "cause": "The simplified lighting omission rule treated all lights as decorative and did not distinguish dimensioned coordination fixtures from undimensioned glow or texture.",
+  "proposed_rule": "A non-cabinet fixture or light may be omitted only when it is decorative, undimensioned and outside coordination scope. If its outline, position or spacing is dimensioned or provides a required witness, retain a simplified source-bound silhouette and complete dimensions; keep unmeasured physical size provisional and never turn it into cabinet geometry.",
+  "evidence": [
+    "Vancouver Wood Carving/benchmarks/a202-powder/phase-1-source-r01/P3.png",
+    "Vancouver Wood Carving/benchmarks/a202-powder/source-inventory.json",
+    "Vancouver Wood Carving/benchmarks/a202-powder/phase-2-3-r01/static-validation.json",
+    "Vancouver Wood Carving/benchmarks/a202-powder/phase-2-3-r01/browser/results.json",
+    "Vancouver Wood Carving/projects/a202/exports/drawings/a202-powder-elevation-3.svg"
+  ],
+  "verification": {
+    "regression": "passed",
+    "visual": "passed",
+    "instruction_review": "passed"
+  },
+  "behavioral_change": true,
+  "visual_change": true,
+  "limits": "A202 fixture coordinates and native IDs remain project facts. The calibrated ring diameter/depth are illustrative and not manufacturer or fabrication specifications. This does not approve A202 or unseen customer drawings."
+}

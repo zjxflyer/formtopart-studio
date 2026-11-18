@@ -1,0 +1,13 @@
+{
+  "id": "owner-drawing-conventions",
+  "scope": "preference",
+  "observation": "The owner repeatedly requested numeric-only yellow inferred labels, black or blank non-wood representation, centered dimension labels when space permits, and a clean sharp PDF.",
+  "cause": "Earlier output mixed diagnostic conventions with customer presentation.",
+  "proposed_rule": "Use the accepted customer presentation defaults, overridable by explicit future project instructions.",
+  "evidence": ["Owner's approved skill implementation plan in this conversation, 2026-10-08", "Owner corrections summarized in references/lessons.md"],
+  "verification": {"regression": "not-applicable", "visual": "not-applicable", "instruction_review": "passed"},
+  "basis": "explicit-user-preference",
+  "status": "adopted",
+  "behavioral_change": false,
+  "visual_change": false
+}

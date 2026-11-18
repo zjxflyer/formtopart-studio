@@ -1,0 +1,20 @@
+{
+  "id": "effective-skill-2-validation-closure",
+  "scope": "invariant",
+  "observation": "A promoted skill package must not retain a validation document that describes an older candidate as unpromoted.",
+  "cause": "The managed validation document was copied from the earlier line-taxonomy candidate and became stale after the broader Effective Skill 2 adoption.",
+  "proposed_rule": "After a versioned skill update, reconcile managed validation metadata with the installed state, while keeping instruction-level validation separate from project drawing approval and unseen-drawing claims.",
+  "evidence": [
+    "skill-packages/effective-skill-2/adoption-lesson.json",
+    "skill-packages/effective-skill-2/skill/elevation-create-and-audit/VALIDATION.md"
+  ],
+  "verification": {
+    "regression": "not-applicable",
+    "visual": "not-applicable",
+    "instruction_review": "passed"
+  },
+  "behavioral_change": false,
+  "visual_change": false,
+  "basis": "verified-correction",
+  "status": "adopted"
+}

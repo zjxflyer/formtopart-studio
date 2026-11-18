@@ -1,0 +1,38 @@
+{
+  "id": "a200-431-cross-view-stepped-base-wall-base",
+  "date": "2026-10-13",
+  "scope": "invariant",
+  "status": "adopted",
+  "basis": "verified-correction",
+  "behavioral_change": true,
+  "visual_change": true,
+  "observation": "A numbered envelope in one view and an unnumbered witness interval in a corresponding view exposed a small stepped toe-kick recess. A separate confirmed vertical dimension identified a wall-base junction that must not be treated as a cabinet toe kick.",
+  "cause": "The earlier model reused inset face coordinates as the complete base contour and treated an unnumbered witness interval as expendable. It also represented the wall as one uninterrupted rectangle, so the dimensioned wall-base boundary disappeared.",
+  "proposed_rule": "Use coordinated-view residuals only after matching assembly identity, orientation, and structural endpoints; bind the exact residual to its actual short interval; preserve stepped base polygons and unchanged neighboring spans; distinguish wall-base context from cabinet toe kicks; and validate the exported contour with endpoint, flattened-step, missing-junction, and stretched-neighbor mutations.",
+  "adopted_rules": [
+    "Use cross-view inference only after proving that witness endpoints describe the same physical component and direction.",
+    "Bind an exact residual to its actual short interval; do not spread it across the whole toe kick or mirror it to another end without evidence.",
+    "Represent stepped toe-kick or plinth ends in the component polygon and preserve downstream confirmed spans by translating dependent geometry rather than stretching it.",
+    "Model a dimensioned wall-base junction as wall context, separate from a cabinet toe kick, even when both occur near the floor.",
+    "Verify corrections with exported-contour and endpoint mutations, including flattened steps, shifted endpoints, missing junctions, and stretched neighbours."
+  ],
+  "evidence": [
+    "benchmarks/a200-native-pdf-kitchens-431/inputs/correction-source-inventory.json",
+    "benchmarks/a200-native-pdf-kitchens-431/audit/detail-kitchen-4-wall-toe.png",
+    "benchmarks/a200-native-pdf-kitchens-431/audit/detail-kitchen-3-wall-toe.png",
+    "benchmarks/a200-native-pdf-kitchens-431/audit/detail-kitchen-1-right-wall.png",
+    "benchmarks/a200-native-pdf-kitchens-431/audit/mutation-tests.json",
+    "benchmarks/a200-native-pdf-kitchens-431/audit/repeatability.json",
+    "benchmarks/a200-native-pdf-kitchens-431/audit/visual-review.json"
+  ],
+  "verification": {
+    "regression": "passed",
+    "visual": "passed",
+    "instruction_review": "passed"
+  },
+  "verification_scope": "A200 Kitchens 4, 3, and 1 revision 03; exact endpoint checks, 15 export-level mutations, source/revision/detail comparisons, SVG/PNG/vector PDF, rasterized PDF, and two-build repeatability.",
+  "exclusions": [
+    "No project-specific width, height, component count, or A200 interpretation becomes a universal default.",
+    "The frozen Effective Skill 2 snapshot is not modified."
+  ]
+}

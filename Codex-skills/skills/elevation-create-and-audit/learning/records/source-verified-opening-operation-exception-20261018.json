@@ -1,0 +1,22 @@
+{
+  "id": "source-verified-opening-operation-exception-20261018",
+  "scope": "preference",
+  "observation": "The owner requests continuous physical board edges while retaining source-verified regular door and drawer opening-direction marks.",
+  "cause": "The earlier general omission preference suppressed valid operations together with generic reference silhouettes; a broad diagonal heuristic also confused handle hardware with opening strokes.",
+  "proposed_rule": "Source-verified opening_operation marks are a separate allowed annotation layer. A clean-solid-outline request suppresses generic source_symbol marks, but must not suppress regular door/drawer opening-direction marks supported by the source unless explicitly excluded. Do not convert operations into physical geometry or numeric dimensions. Verify consistent board-thickness endpoints and visible physical-edge coverage above dimension graphics.",
+  "evidence": [
+    "Current user-approved A201 r05 plan and marked corrections",
+    "benchmarks/a201-continuous-outline-r05-20261018/operation_sources.py",
+    "projects/4404-w15-front-l1/exports/phase-2-r05/operation-symbol-register.json",
+    "projects/4404-w15-front-l1/exports/phase-2-r05/audit-results.json"
+  ],
+  "verification": {
+    "regression": "passed",
+    "visual": "passed",
+    "instruction_review": "passed"
+  },
+  "behavioral_change": true,
+  "visual_change": true,
+  "basis": "explicit-user-preference",
+  "status": "adopted"
+}

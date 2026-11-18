@@ -1,0 +1,24 @@
+{
+  "id": "effective-version-skill-3-consolidated-routing",
+  "scope": "invariant",
+  "observation": "The complete exercise history mixes shared drawing invariants with addition- and extraction-specific transformations, and historical examples can be mistaken for newly verified universal rules.",
+  "cause": "Lessons accumulated across separate corrections and companion-skill exercises without one classification and routing summary.",
+  "proposed_rule": "Keep evidence, geometry, dimensions, presentation, and acceptance in the main drawing skill; route insertion and standalone extraction to their companion skills; classify verified rules, owner preferences, project examples, and limitations separately.",
+  "evidence": [
+    "skill-packages/effective-version-skill-3/LESSONS.md",
+    "skill-packages/drawing-add-objects/VALIDATION.md",
+    "skill-packages/drawing-separate-objects/VALIDATION.md",
+    "benchmarks/a200-native-pdf-kitchens-431/audit/source-review-validation.json",
+    "benchmarks/a200-native-pdf-kitchens-431/audit/mutation-tests.json"
+  ],
+  "verification": {
+    "regression": "passed",
+    "visual": "not-applicable",
+    "instruction_review": "passed"
+  },
+  "behavioral_change": true,
+  "visual_change": false,
+  "basis": "explicit-user-preference",
+  "status": "adopted",
+  "verification_scope": "Instruction routing, package validation, source-review separation, and recorded A200 exercise regressions; no unseen-drawing performance claim."
+}

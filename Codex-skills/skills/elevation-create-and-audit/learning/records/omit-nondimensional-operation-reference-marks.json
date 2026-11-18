@@ -1,0 +1,21 @@
+{
+  "id": "omit-nondimensional-operation-reference-marks",
+  "scope": "preference",
+  "observation": "User requested clean solid-outline A201 drawings and rejected retained non-dimensional operation/reference symbols.",
+  "cause": "The previous generic rule preserved source-supported operation/reference marks in the clean customer output.",
+  "proposed_rule": "When a user requests clean solid-outline simplified drawings, omit non-dimensional operation/reference marks by default; preserve evidence in audit registers and retain required view-reference arrows separately.",
+  "evidence": [
+    "projects/4404-w15-front-l1/source/original.pdf#page=6",
+    "benchmarks/a201-continuous-outline-r04-20261018/independent-build-1/dash-exclusions.json",
+    "benchmarks/a201-continuous-outline-r04-20261018/independent-build-1/audit-results.json"
+  ],
+  "verification": {
+    "regression": "passed",
+    "visual": "passed",
+    "instruction_review": "passed"
+  },
+  "behavioral_change": true,
+  "visual_change": true,
+  "basis": "explicit-user-preference",
+  "status": "adopted"
+}

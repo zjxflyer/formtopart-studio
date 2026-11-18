@@ -1,0 +1,29 @@
+{
+  "id": "a200-431-floor-gap-evidence-path-correction",
+  "date": "2026-10-14",
+  "scope": "invariant",
+  "status": "adopted",
+  "basis": "verified-correction",
+  "behavioral_change": false,
+  "visual_change": false,
+  "observation": "The adopted floor-gap lesson references benchmarks/a200-native-pdf-kitchens-431/model/kitchen-3-model.json, but the reviewed canonical model is stored at benchmarks/a200-native-pdf-kitchens-431/output/kitchen-3/model.json.",
+  "cause": "The project keeps its aggregate inventory under model/ while each resolved drawing model is delivered beside its outputs. The original lesson used the aggregate-directory pattern instead of the actual Kitchen 3 model path.",
+  "proposed_rule": "Preserve the original adopted record and append this correction record. For evidence review and restoration packages, resolve the floor-gap lesson's model evidence to benchmarks/a200-native-pdf-kitchens-431/output/kitchen-3/model.json.",
+  "evidence": [
+    "skill-packages/elevation-create-and-audit/learning/records/a200-431-assembly-container-floor-gaps.json",
+    "benchmarks/a200-native-pdf-kitchens-431/output/kitchen-3/model.json",
+    "benchmarks/a200-native-pdf-kitchens-431/audit/artifact-manifest.json",
+    "benchmarks/a200-native-pdf-kitchens-431/audit/source-review.json"
+  ],
+  "verification": {
+    "regression": "not-applicable",
+    "visual": "not-applicable",
+    "instruction_review": "passed"
+  },
+  "verification_scope": "Evidence-path correction only. The original floor-gap behavior, drawing geometry, rendered artifacts, and validation results are unchanged.",
+  "supersedes_evidence_reference": {
+    "record": "a200-431-assembly-container-floor-gaps",
+    "old": "benchmarks/a200-native-pdf-kitchens-431/model/kitchen-3-model.json",
+    "new": "benchmarks/a200-native-pdf-kitchens-431/output/kitchen-3/model.json"
+  }
+}

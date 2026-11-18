@@ -1,0 +1,23 @@
+{
+  "id": "a200-431-unlabeled-witness-contour-symbol-audit",
+  "scope": "invariant",
+  "observation": "The Kitchen 4, 3, and 1 review found touching dimension extensions, incomplete wall contours, implicit toe kicks, merged door operation marks, omitted drawer marks, and self-referential acceptance checks.",
+  "cause": "The model did not keep structural measurement endpoints separate from visible extension starts, did not inventory unlabeled witnesses and toe kicks explicitly, simplified owner-specific symbols, and validated generated lists against themselves.",
+  "proposed_rule": "Treat unlabeled witnesses as nonnumeric structural evidence; model supported toe kicks and complete context contours explicitly; preserve one source symbol per owner; route visible extension starts outside the complete envelope while retaining true endpoints; and validate actual exports against an independent source inventory with the normal validator.",
+  "evidence": [
+    "benchmarks/a200-native-pdf-kitchens-431/inputs/correction-source-inventory.json",
+    "benchmarks/a200-native-pdf-kitchens-431/audit/REPORT.md",
+    "benchmarks/a200-native-pdf-kitchens-431/audit/mutation-tests.json",
+    "benchmarks/a200-native-pdf-kitchens-431/audit/visual-review.json"
+  ],
+  "verification": {
+    "regression": "passed",
+    "visual": "passed",
+    "instruction_review": "passed"
+  },
+  "behavioral_change": true,
+  "visual_change": true,
+  "basis": "verified-correction",
+  "verification_scope": "A200 Kitchens 4, 3, and 1; ten export-level mutations; SVG, PNG, vector PDF, rasterized PDF, source/candidate comparisons, and two-build repeatability. Kitchen 3 horizontal-chain uncertainty remains project-local.",
+  "status": "adopted"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "compact-view-references-in-coordinated-plans",
+  "scope": "preference",
+  "basis": "explicit-user-preference",
+  "status": "adopted",
+  "observation": "The owner reversed the earlier blanket omission of plan reference bubbles and explicitly chose compact view labels as the default when plans accompany elevations.",
+  "cause": "Simplification removed useful plan-to-elevation correspondence together with unrelated reference clutter.",
+  "proposed_rule": "On coordinated plan/elevation sets retain compact source-linked view-reference labels by default unless explicitly omitted. Verify identifier, target and viewing direction, keep text readable and clear of geometry/dimensions, and classify the marker as reference annotation. Unknown correspondence stays pending. Continue excluding unrelated bubbles and orphan callouts; never create geometry or relax all circle/triangle checks to permit registered references.",
+  "evidence": [
+    "Owner's confirmed coordinated-plan default in the A200 conversation, 2026-10-17",
+    "Vancouver Wood Carving/benchmarks/a200-plan-to-3d/phase-2-plan-view-labels-r01/source-view-reference-inventory.json",
+    "Vancouver Wood Carving/benchmarks/a200-plan-to-3d/phase-2-plan-view-labels-r01/review-input.json",
+    "Vancouver Wood Carving/benchmarks/a200-plan-to-3d/phase-2-plan-view-labels-r01/validation-results.json",
+    "Vancouver Wood Carving/benchmarks/a200-plan-to-3d/phase-2-plan-view-labels-r01/fault-injection-results.json"
+  ],
+  "verification": {
+    "regression": "passed",
+    "visual": "passed",
+    "instruction_review": "passed"
+  },
+  "behavioral_change": true,
+  "visual_change": true,
+  "supersedes": {
+    "record": "owner-simplified-factory-presentation-profile",
+    "scope": "only the historical blanket view-bubble omission; other presentation rules remain active"
+  },
+  "limits": "An owner-specific coordinated-drawing default, not a universal architectural requirement. A200 labels, coordinates, directions and marker count remain project facts. Frozen Effective Version 5 and all historical lesson records remain unchanged. No new Effective Version is created."
+}

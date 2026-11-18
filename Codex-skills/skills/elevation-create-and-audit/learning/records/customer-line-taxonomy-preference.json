@@ -1,0 +1,24 @@
+{
+  "id": "customer-line-taxonomy-preference",
+  "scope": "preference",
+  "observation": "The owner requests four explicit line classes and wants simplified elevations to remove decorative texture while preserving object boundaries, opening marks, dimensions, material labels, and recognizable source symbols.",
+  "cause": "Dense customer drawings mix geometry, operation marks, annotations, and appearance texture; treating all lines alike creates unsupported components or noisy outputs.",
+  "proposed_rule": "Classify each source mark as real_boundary, opening_operation, annotation, or texture_or_surface_detail before rendering. Use colorful or 3D references to support recognition without inventing geometry. Keep operation marks component-owned and omit appearance-only texture from the clean elevation.",
+  "evidence": [
+    "user instruction in active drawing task",
+    "references/source-symbols.md",
+    "references/line-taxonomy.md",
+    "regression/line_taxonomy_regressions.py",
+    "passes/sixteenth-pass-line-taxonomy-test/review.md",
+    "passes/sixteenth-pass-line-taxonomy-test/symbol-classification-overlay.png"
+  ],
+  "verification": {
+    "regression": "passed",
+    "visual": "passed",
+    "instruction_review": "passed"
+  },
+  "behavioral_change": true,
+  "visual_change": true,
+  "basis": "explicit-user-preference",
+  "status": "adopted"
+}

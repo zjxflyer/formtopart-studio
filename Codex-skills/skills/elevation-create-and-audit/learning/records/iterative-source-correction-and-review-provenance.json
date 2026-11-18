@@ -1,0 +1,22 @@
+{
+  "id": "iterative-source-correction-and-review-provenance",
+  "scope": "preference",
+  "observation": "The owner requested consolidation of repeated customer corrections into an evidence-bound drawing workflow.",
+  "cause": "Inherited inventory, generic symbols, coincident polygon edges, and reusable success flags can preserve a source interpretation error.",
+  "proposed_rule": "Trace the customer target and every contributor, preserve source-specific notation and construction coordination, bind dimensions independently, and attach separate review results to exact artifact hashes.",
+  "evidence": [
+    "D:/BaiduSyncdisk/MateBook工作文件/CodexOption/Vancouver Wood Carving/benchmarks/photo1-facade-gpt56sol/skill-review-2026-10-10/retrospective.md",
+    "D:/BaiduSyncdisk/MateBook工作文件/CodexOption/Vancouver Wood Carving/benchmarks/photo1-facade-gpt56sol/skill-review-2026-10-10/decision-evaluation.md",
+    "D:/BaiduSyncdisk/MateBook工作文件/CodexOption/Vancouver Wood Carving/benchmarks/photo1-facade-gpt56sol/skill-review-2026-10-10/lesson-index.json"
+  ],
+  "verification": {
+    "regression": "passed",
+    "visual": "not-applicable",
+    "instruction_review": "passed"
+  },
+  "behavioral_change": true,
+  "visual_change": false,
+  "basis": "explicit-user-preference",
+  "status": "adopted",
+  "verification_scope": "Instruction-level decision cases and skill structural checks only; no new certification of historical drawings."
+}

@@ -1,0 +1,23 @@
+{
+  "id": "independent-source-review-and-export-edge-coverage",
+  "scope": "invariant",
+  "observation": "A visual-status flag could populate source-review status, and component presence plus stroke checks could miss exported coordinate defects even when the canonical model remained correct.",
+  "cause": "Review state was coupled to presentation approval, while vector validation did not compare ordered exported component coordinates to solved model contours.",
+  "proposed_rule": "Keep source review in a separate evidence-and-hash-bound record that visual status cannot promote; validate exported physical coordinates, contour coverage, junctions, colour, and line style, including export-only fault injection with an unchanged correct model.",
+  "evidence": [
+    "benchmarks/a200-native-pdf-kitchens-431/audit/source-review.json",
+    "benchmarks/a200-native-pdf-kitchens-431/audit/source-review-validation.json",
+    "benchmarks/a200-native-pdf-kitchens-431/audit/mutation-tests.json",
+    "benchmarks/a200-native-pdf-kitchens-431/audit/VERIFICATION-QUALIFICATION.md"
+  ],
+  "verification": {
+    "regression": "passed",
+    "visual": "not-applicable",
+    "instruction_review": "passed"
+  },
+  "behavioral_change": true,
+  "visual_change": false,
+  "basis": "verified-correction",
+  "status": "adopted",
+  "verification_scope": "A200 Kitchens 4, 3, and 1 validator behavior plus skill instruction review; no claim of general performance on a different customer drawing."
+}

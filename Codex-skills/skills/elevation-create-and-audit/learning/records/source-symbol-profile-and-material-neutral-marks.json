@@ -1,0 +1,20 @@
+{
+  "id": "source-symbol-profile-and-material-neutral-marks",
+  "scope": "invariant",
+  "observation": "Customer operation marks can occur on multiple materials, and visible X or V marks do not by themselves prove a seam, component, or material region.",
+  "cause": "The prior presentation rule coupled dash-dot marks to wood classification and did not separate symbol appearance from meaning confidence.",
+  "proposed_rule": "Build a source symbol profile, preserve recognizable marks on their owner faces, keep appearance and meaning confidence separate, and require independent evidence before a symbol changes geometry, inventory, materials, or dimensions.",
+  "evidence": [
+    "Owner-approved Two Complementary Skills plan, 2026-10-08",
+    "Synthetic same-symbol/different-meaning and material-neutral owner-face regression cases"
+  ],
+  "verification": {
+    "regression": "passed",
+    "visual": "not-applicable",
+    "instruction_review": "passed"
+  },
+  "basis": "explicit-user-preference",
+  "status": "adopted",
+  "behavioral_change": true,
+  "visual_change": false
+}

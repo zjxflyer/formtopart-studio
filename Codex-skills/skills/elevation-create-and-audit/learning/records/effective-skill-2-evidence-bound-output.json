@@ -1,0 +1,24 @@
+{
+  "id": "effective-skill-2-evidence-bound-output",
+  "scope": "preference",
+  "observation": "The owner accepted a combined visual, OCR, native PDF text, and vector workflow together with dimensioned context, complete physical contours, blue dimensions, and omission of unbound inferred labels.",
+  "cause": "Earlier workflows could recognize a component or dimension semantically while omitting its rendered edge, or could display a residual calculation without bound dimension graphics. Black dimension styling also made annotations harder to distinguish from objects.",
+  "proposed_rule": "For simplified customer drawings, model dimensioned surroundings, derive and audit complete exported edges, display only record-bound measurements with full dimension graphics, use black object and context outlines with blue dimension graphics, show only necessary resolved inference on pale yellow without INF, compare the source and prior revision, and keep source, visual, and repeatability status independent.",
+  "evidence": [
+    "benchmarks/a200-visual-first-kitchen-2/audit/VISUAL-REVIEW.md",
+    "benchmarks/a200-visual-first-kitchen-2/audit/dimension-binding-audit.json",
+    "benchmarks/a200-visual-first-kitchen-2/audit/edge-coverage.json",
+    "benchmarks/a200-visual-first-kitchen-2/audit/revision05-to-06-difference.json",
+    "benchmarks/a200-visual-first-kitchen-2/audit/determinism.json"
+  ],
+  "verification": {
+    "regression": "passed",
+    "visual": "passed",
+    "instruction_review": "passed"
+  },
+  "behavioral_change": true,
+  "visual_change": true,
+  "basis": "explicit-user-preference",
+  "status": "adopted",
+  "verification_scope": "Reusable workflow and presentation rules only; the unresolved project LED chain remains excluded."
+}

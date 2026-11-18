@@ -1,0 +1,22 @@
+{
+  "id": "cross-consumer-native-symbol-coverage",
+  "scope": "invariant",
+  "observation": "Source-owned symbols existed in the model but were absent from a requested renderer.",
+  "cause": "Record coverage was mistaken for visible consumer coverage, and native fragments can be lost by a second dash pattern.",
+  "proposed_rule": "Check required enabled coverage separately for each requested consumer against an independent source inventory. Preserve native dash fragments without redashing; test missing, reversed and wrong-owner fragments in actual exports. Interactive hiding does not remove static elevation requirements.",
+  "evidence": [
+    "Vancouver Wood Carving/tools/workbench/opening-marks/reports/browser-validation.json",
+    "Vancouver Wood Carving/tools/skill-v6/instruction-review.md",
+    "Vancouver Wood Carving/skill-packages/effective-version-6/evidence/validation-summary.json"
+  ],
+  "verification": {
+    "regression": "passed",
+    "visual": "not-applicable",
+    "instruction_review": "passed"
+  },
+  "behavioral_change": true,
+  "visual_change": false,
+  "basis": "verified-correction",
+  "status": "adopted",
+  "limits": "Instruction update; dated rendering evidence is not a fresh PDF source audit or customer acceptance."
+}

@@ -1,0 +1,23 @@
+{
+  "id": "source-size-versus-relationship-dimension-coverage",
+  "date": "2026-10-17",
+  "scope": "invariant",
+  "observation": "Static elevation placement dimensions were absent from interactive output that showed only component extents.",
+  "cause": "Dimension observations were not classified and carried as structural relationship bindings into every consumer.",
+  "proposed_rule": "Classify retained dimensions as size or relationship data, record omissions, and preserve stable subjects, structural endpoints, source evidence and measurement-specific uncertainty across consumers. Object size is not a substitute for placement or spacing.",
+  "evidence": [
+    "Vancouver Wood Carving/benchmarks/a202-powder/phase-3-relationship-dimensions-r01/export-audit.json",
+    "Vancouver Wood Carving/benchmarks/a202-powder/phase-3-relationship-dimensions-r01/visual-review.json",
+    "Vancouver Wood Carving/benchmarks/a202-powder/phase-3-relationship-dimensions-r01/app-tests.json"
+  ],
+  "verification": {
+    "regression": "passed",
+    "visual": "passed",
+    "instruction_review": "passed"
+  },
+  "behavioral_change": true,
+  "visual_change": true,
+  "basis": "verified-correction",
+  "status": "adopted",
+  "limits": "Focused source/consumer validation, not a fresh full-PDF audit, fabrication certification or approval of unresolved project measurements. Customer coordinates and dimension values remain project-local."
+}

@@ -1,0 +1,23 @@
+{
+  "id": "source-owned-simplification-and-negative-export-audit",
+  "scope": "invariant",
+  "basis": "verified-correction",
+  "status": "adopted",
+  "observation": "A200 r03 correction exposed missing recognizable silhouettes, a crop-crossing true wall, lighting-mask interruptions, orphan callout circles and inferred dimension extensions crossing an outer wall.",
+  "cause": "Coordinate/primitive filtering confused source presence with required output; inclusion-only audits and native-only clearance did not cover excluded annotations or later inferred dimensions.",
+  "proposed_rule": "Use owner-bound inclusion decisions and a durable source atlas; preserve supported contours, clip crossing source intervals, repair only evidenced same-edge mask interruptions, remove complete unused callouts, route all dimensions through one clearance policy, and test both required and excluded content in actual exports. Keep source, model, export, visual and customer acceptance claims separate.",
+  "evidence": [
+    "Vancouver Wood Carving/benchmarks/a200-plan-to-3d/phase-2-detail-recovery-r03/source-review.json",
+    "Vancouver Wood Carving/benchmarks/a200-plan-to-3d/phase-2-detail-recovery-r03/visual-review.json",
+    "Vancouver Wood Carving/benchmarks/a200-plan-to-3d/phase-2-detail-recovery-r03/fault-injection-results.json",
+    "Vancouver Wood Carving/skill-packages/effective-version-5/evidence-index.json"
+  ],
+  "verification": {
+    "regression": "passed",
+    "visual": "passed",
+    "instruction_review": "passed"
+  },
+  "behavioral_change": true,
+  "visual_change": true,
+  "limits": "Narrow correction exercise only. A200 drawings remain pending user review; no unseen-design, fabrication or full shared-3D certification. Numeric estimates and exact source coordinates are not shared rules."
+}

@@ -1,0 +1,23 @@
+{
+  "id": "owner-simplified-factory-presentation-profile",
+  "scope": "preference",
+  "basis": "explicit-user-preference",
+  "status": "adopted",
+  "observation": "The owner requested four presentation categories, no unrelated objects/textures/view bubbles, recognizable physical outlines, dimension-to-outline gaps and removal or naming of unlabeled callout circles.",
+  "cause": "A source-faithful extraction retained information unnecessary for the simplified cabinet-factory review drawing.",
+  "proposed_rule": "For the owner's simplified factory-review sets use solid black physical outlines, complete blue dimensions with pale-yellow necessary resolved inferences, source-owned dashed opening marks in elevations, and concise black descriptions. Exclude decorative/reference clutter and unnecessary lamp symbols, not physical construction or coordination bands. Preserve internal source/view correspondence. Explicit future project requirements override the profile.",
+  "evidence": [
+    "Owner's marked plan/elevation corrections in the active A200 conversation, including dimension clearance, recognizable silhouettes and orphan circles",
+    "Vancouver Wood Carving/benchmarks/a200-plan-to-3d/phase-2-detail-recovery-r03/inclusion-omission-register.json",
+    "Vancouver Wood Carving/benchmarks/a200-plan-to-3d/phase-2-detail-recovery-r03/REPORT.md",
+    "Vancouver Wood Carving/skill-packages/effective-version-5/evidence-index.json"
+  ],
+  "verification": {
+    "regression": "passed",
+    "visual": "passed",
+    "instruction_review": "passed"
+  },
+  "behavioral_change": true,
+  "visual_change": true,
+  "limits": "Presentation preference, not a universal statement about architectural line types. Physical circles and dimensioned lighting construction are not blanket exclusions. Does not imply approval of the A200 drawing set."
+}
