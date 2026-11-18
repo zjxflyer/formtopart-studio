@@ -1,0 +1,32 @@
+{
+  "status": "passed-with-platform-limitation",
+  "tests_run": 23,
+  "passed": 22,
+  "failures": 0,
+  "errors": 0,
+  "skipped": [
+    {
+      "test": "test_symlink_rejected_when_platform_allows_it (test_bundle_tool.BundleTests.test_symlink_rejected_when_platform_allows_it)",
+      "reason": "Neither symlinks nor junctions available: New-Item : Access is denied"
+    }
+  ],
+  "python_version": "3.13.1",
+  "tool_sha256": "a10f516312af57573f7a60d3718db7ae26bf22e71d494a41988942098a63f4ad",
+  "scope": "Temporary copies only; no installed skills or registries modified.",
+  "coverage": [
+    "fresh and mixed installs",
+    "verified full backups and active excluded-history preservation",
+    "managed records restored with old records kept in backup",
+    "stale expected and active locks rejected",
+    "nested manifest files and docs included in bundle hash",
+    "external bundle pin",
+    "forced swap failure rollback",
+    "interrupted transaction recovery",
+    "live owner rejection",
+    "unsafe journal rejection",
+    "path traversal and invalid duplicate skills",
+    "symlink/reparse rejection",
+    "Windows long paths",
+    "freeze-once and source-tree overlap defense"
+  ]
+}
