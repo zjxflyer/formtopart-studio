@@ -1,0 +1,4 @@
+interface:
+  display_name: "Interior Drawing Standards"
+  short_description: "Interpret customer symbols and Canadian interior standards"
+  default_prompt: "Use $interior-drawing-standards to interpret these drawing symbols and identify applicable Canadian or Vancouver references."
