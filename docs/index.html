@@ -110,6 +110,8 @@
     }
 
     .player {
+      width: min(100%, calc((100svh - 220px) * 16 / 9));
+      margin-inline: auto;
       overflow: hidden;
       border: 1px solid #c5d0c1;
       border-radius: 16px;
@@ -121,10 +123,15 @@
       display: block;
       width: 100%;
       height: auto;
-      max-height: calc(100svh - 220px);
-      aspect-ratio: 48 / 31;
+      aspect-ratio: 16 / 9;
       object-fit: contain;
       background: #f4f4e9;
+    }
+
+    video::cue {
+      color: #fff;
+      background: rgb(12 30 24 / 92%);
+      font-family: "Segoe UI", Arial, sans-serif;
     }
 
     video:focus-visible {
@@ -181,14 +188,13 @@
       .back-link { padding-left: 4px; font-size: 0.8rem; }
       main { padding-top: 22px; }
       .playback-hint { margin-bottom: 18px; font-size: 0.92rem; }
-      .player { border-radius: 10px; }
-      video { max-height: none; }
+      .player { width: 100%; border-radius: 10px; }
       .next-step { align-items: stretch; flex-direction: column; gap: 15px; padding-block: 20px 25px; }
       .download-button { width: 100%; }
     }
 
     @media (min-width: 601px) and (max-height: 620px) {
-      video { max-height: none; }
+      .player { width: 100%; }
     }
   </style>
 </head>
@@ -212,10 +218,11 @@
 
     <div class="player">
       <video controls playsinline preload="metadata"
-        src="media/FormToPart-Studio-Product-Overview-Captioned.mp4?v=1e885c7b825d"
-        poster="images/product-overview-captioned.jpg?v=1e885c7b825d"
+        src="media/FormToPart-Studio-Product-Overview.mp4"
+        poster="images/product-overview.jpg"
         aria-label="FormToPart Studio product overview with narration and visible captions"
         aria-describedby="playback-hint">
+        <track kind="captions" src="media/FormToPart-Studio-Product-Overview.en.vtt" srclang="en" label="English" default>
         Your browser does not support this video player. Visit the
         <a href="https://github.com/zjxflyer/formtopart-studio">FormToPart Studio repository</a>
         for the product overview and setup guide.
