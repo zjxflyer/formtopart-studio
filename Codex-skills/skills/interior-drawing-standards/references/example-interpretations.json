@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "id": "x-access-panel-project-a",
+      "project_context": {"project": "A", "jurisdiction": "Vancouver", "view": "elevation"},
+      "appearance": {"class": "unresolved-source-symbol", "shape": "X", "line_pattern": "dashed", "orientation": "corner-to-corner", "owner_face": "painted-access-face", "owner_material": "paint", "appearance_confidence": 0.99},
+      "possible_interpretations": [{"meaning": "access-or-openable-face", "confidence": 0.88, "evidence": ["project A legend"]}],
+      "meaning_confidence": 0.88,
+      "geometry_effect": "none",
+      "material_effect": "none",
+      "dimension_effect": "none",
+      "source_class": "customer-specific-notation",
+      "confirmation_needed": null,
+      "compliance_flags": []
+    },
+    {
+      "id": "x-paired-operation-project-b",
+      "project_context": {"project": "B", "jurisdiction": "Vancouver", "view": "elevation"},
+      "appearance": {"class": "operation-mark", "shape": "X", "line_pattern": "dashed", "orientation": "corner-to-corner", "owner_face": "paired-door-field", "owner_material": "wood", "appearance_confidence": 0.99},
+      "possible_interpretations": [{"meaning": "overlapping-paired-door-operation-marks", "confidence": 0.82, "evidence": ["project B door schedule and center seam"]}],
+      "meaning_confidence": 0.82,
+      "geometry_effect": "none",
+      "material_effect": "none",
+      "dimension_effect": "none",
+      "source_class": "customer-specific-notation",
+      "confirmation_needed": null,
+      "compliance_flags": []
+    },
+    {
+      "id": "v-wood-owner",
+      "project_context": {"project": "C", "jurisdiction": "Vancouver", "view": "elevation"},
+      "appearance": {"class": "operation-mark", "shape": "V", "line_pattern": "dash-dot", "orientation": "apex-right", "owner_face": "wood-door", "owner_material": "wood", "appearance_confidence": 0.98},
+      "possible_interpretations": [{"meaning": "opening-direction", "confidence": 0.72, "evidence": ["consistent project usage"]}],
+      "meaning_confidence": 0.72,
+      "geometry_effect": "none",
+      "material_effect": "none",
+      "dimension_effect": "none",
+      "source_class": "customer-specific-notation",
+      "confirmation_needed": "Confirm hinge/handle apex convention",
+      "compliance_flags": []
+    },
+    {
+      "id": "v-glass-owner",
+      "project_context": {"project": "C", "jurisdiction": "Vancouver", "view": "elevation"},
+      "appearance": {"class": "operation-mark", "shape": "V", "line_pattern": "dash-dot", "orientation": "apex-left", "owner_face": "glass-door", "owner_material": "glass", "appearance_confidence": 0.98},
+      "possible_interpretations": [{"meaning": "opening-direction", "confidence": 0.72, "evidence": ["consistent project usage"]}],
+      "meaning_confidence": 0.72,
+      "geometry_effect": "none",
+      "material_effect": "none",
+      "dimension_effect": "none",
+      "source_class": "customer-specific-notation",
+      "confirmation_needed": "Confirm hinge/handle apex convention",
+      "compliance_flags": ["Confirm safety-glazing requirement separately from the operation mark"]
+    },
+    {
+      "id": "diamond-unknown-meaning",
+      "project_context": {"project": "D", "jurisdiction": "Vancouver", "view": "elevation"},
+      "appearance": {"class": "unresolved-source-symbol", "shape": "diamond", "line_pattern": "dashed", "orientation": "vertical", "owner_face": "finish-panel", "owner_material": "unknown", "appearance_confidence": 0.96},
+      "possible_interpretations": [{"meaning": "operation-or-access-mark", "confidence": 0.35, "evidence": ["software convention only"]}],
+      "meaning_confidence": 0.35,
+      "geometry_effect": "none",
+      "material_effect": "none",
+      "dimension_effect": "none",
+      "source_class": "customer-specific-notation",
+      "confirmation_needed": "Locate legend, schedule, plan, or detail",
+      "compliance_flags": []
+    },
+    {
+      "id": "seam-with-operation-mark",
+      "project_context": {"project": "E", "jurisdiction": "Vancouver", "view": "elevation"},
+      "appearance": {"class": "operation-mark", "shape": "X", "line_pattern": "dashed", "orientation": "corner-to-corner", "owner_face": "door-pair", "owner_material": "wood", "appearance_confidence": 0.99},
+      "possible_interpretations": [{"meaning": "paired-operation", "confidence": 0.9, "evidence": ["door schedule"]}],
+      "meaning_confidence": 0.9,
+      "geometry_effect": "none",
+      "material_effect": "none",
+      "dimension_effect": "none",
+      "source_class": "customer-specific-notation",
+      "confirmation_needed": null,
+      "compliance_flags": [],
+      "related_structural_evidence": {"id": "seam-E-01", "type": "physical-seam", "evidence": ["plan seam", "elevation solid line", "door schedule"]}
+    }
+  ]
+}
