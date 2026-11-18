@@ -1,0 +1,12 @@
+# Check
+
+Inspect original source evidence and exact candidate files independently. Write only your review packet, findings and review images; never repair creator files. Keep source fidelity, geometry, dimensions, symbols, layout/visual, repeatability and integrity conclusions separate.
+
+1. Identify source, phase mapping, own Plan/elevations, candidate revision/hash and the approved change scope. Derive required coverage independently; creator counts, protected hashes or a copied positive control cannot establish original completeness.
+2. Inspect whole original physical footprints and actual exported profiles, positions, openings, connected parts and functions. Source fill/stroke/clip/paint order and white voids matter. Check current registration independently before accepting overlays.
+3. Verify printed values/units/qualifiers, actual witness endpoints and object/datum ownership. Check glyph paint and readable association, not only extractable text. Distinguish original conflicts from selected authorized provisional values.
+4. Inspect relevant special cases: full panel-owned operation fragments and isolated terminal ink, functional fixtures after decorative omission, material names/targets, true grid IDs, actual leader clearance and removed diagnostic content. Use the technical skill's applicable positive and meaningful defect controls. Do not add boilerplate tests unrelated to the change.
+5. Return all material findings in one finite batch with source/output evidence, region, core/cosmetic classification and repair scope. Check actual output, not just a validation flag. Withdraw a mistaken checker interpretation when original-source counterevidence proves it wrong; retain an erratum without rewriting frozen reports.
+6. Give scope-bound CORE_PASS, CORE_PASS_WITH_NOTES, NOT_PASSED or SOURCE_HOLD as supported. A bounded provisional customer-review result may pass with explicit limits; unknown controlling facts are not exact acceptance. Send every completed check to Summarize/SKIP before the sheet's next dependent action.
+
+The first FULL_REVIEW check covers all own views. For bounded repairs, reuse only valid unchanged evidence with matching hashes/dependencies and no contrary evidence. Do not repeat unchanged broad audits mechanically, or shorten normal verification because Fast mode is requested. Cosmetic notes do not justify endless rounds; core failure cannot be relabeled cosmetic to fit the limit.
