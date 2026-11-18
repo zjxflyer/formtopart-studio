@@ -1,0 +1,11 @@
+{
+  "skill": "drawing-separate-objects",
+  "status": "instruction_validated_not_generalized",
+  "limitations": [
+    "The A200 standalone renderer names cabinet edges and symbols directly and is retained only as a worked example.",
+    "The A200 audit originally allowed a visual-status flag to contribute to source-fidelity approval; the shared skill now forbids that shortcut.",
+    "Generic model-driven rendering is specified and decision-tested but not yet exercised on another customer design.",
+    "A passing parent-model comparison does not independently verify the original PDF."
+  ]
+}
+

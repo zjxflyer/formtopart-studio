@@ -1,0 +1,25 @@
+{
+  "skill": "drawing-separate-objects",
+  "status": "candidate_companion_skill",
+  "lessons": [
+    {
+      "id": "selection-contract-before-extraction",
+      "scope": "invariant",
+      "rule": "Resolve rails, stiles, plinths, context, shared edges, and nested-child scope before extracting records.",
+      "basis": "verified project correction"
+    },
+    {
+      "id": "preserve-parent-local-transform",
+      "scope": "invariant",
+      "rule": "Store one parent-to-local transform and preserve source IDs, local topology, symbol coordinates, and dimensions.",
+      "basis": "verified project correction"
+    },
+    {
+      "id": "source-status-independent",
+      "scope": "invariant",
+      "rule": "Do not derive original-source verification from visual status, parent-model agreement, or repeatability.",
+      "basis": "implementation audit"
+    }
+  ]
+}
+
