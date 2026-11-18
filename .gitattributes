@@ -1,0 +1,8 @@
+# Preserve the frozen bundle byte for byte, including its recorded line endings.
+Codex-skills/** -text
+
+*.mp4 binary
+*.jpg binary
+*.png binary
+*.pdf binary
+*.vwc binary

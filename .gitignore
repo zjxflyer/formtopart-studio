@@ -1,0 +1,45 @@
+# Release assets and generated Windows binaries
+*.exe
+*.dll
+*.nupkg
+*.download
+/desktop-app/build/
+/desktop-app/dist/
+/desktop-app/desktop-host-dist/
+/desktop-app/ui-dist/
+/desktop-app/portable-dist/
+/frontend/dist/
+
+# Local dependencies and build caches
+/.venv/
+/.pnpm-store/
+/backend/.deps/
+node_modules/
+__pycache__/
+.pytest_cache/
+*.py[cod]
+*.tsbuildinfo
+
+# Local workspace data and credentials
+.env
+.env.*
+*.sqlite*
+*.db*
+*.vwc
+*.pdf
+*.pem
+*.pfx
+*.key
+openai-key.bin
+credentials/
+desktop-profile/
+projects/
+test-results/
+
+# Explicitly approved public sample assets
+!/desktop-app/public-sample/reference-demo/A200-Plan-and-Elevations.pdf
+!/desktop-app/public-sample/reference-demo/A202-Plan-and-Elevations.pdf
+!/desktop-app/public-sample/showcase/Public-Showcase.vwc
+
+# Required handbook and source-independent regression fixtures in the frozen skill bundle
+!/Codex-skills/**/*.pdf
