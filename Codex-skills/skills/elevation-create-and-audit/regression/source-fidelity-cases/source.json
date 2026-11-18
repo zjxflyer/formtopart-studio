@@ -1,0 +1,72 @@
+{
+  "units": "drawing units",
+  "physical": {
+    "cabinet_outline": [
+      [
+        80,
+        60
+      ],
+      [
+        240,
+        60
+      ],
+      [
+        240,
+        180
+      ],
+      [
+        80,
+        180
+      ],
+      [
+        80,
+        60
+      ]
+    ],
+    "functional_basin": {
+      "center": [
+        160,
+        184
+      ],
+      "radii": [
+        30,
+        6
+      ]
+    }
+  },
+  "operation": {
+    "owner": "cabinet-door",
+    "apex": [
+      95,
+      120
+    ],
+    "arms_to": [
+      [
+        225,
+        170
+      ],
+      [
+        225,
+        70
+      ]
+    ],
+    "native_fragments": true
+  },
+  "dimension": {
+    "value": 160,
+    "witnesses": [
+      [
+        80,
+        60
+      ],
+      [
+        240,
+        60
+      ]
+    ],
+    "kind": "component_width"
+  },
+  "omittable": [
+    "pale decorative texture only"
+  ]
+}

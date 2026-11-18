@@ -1,0 +1,46 @@
+{
+  "status": "PASS_SCOPED_FORWARD_DECISIONS",
+  "independent_agent": "independent_portable_forward_check",
+  "inputs": "rawsyntheticsource.json/PDF/PNG and5candidatePDF/PNG; noprioranswer/protectedprojectaccess",
+  "review": "All6images viewed; actualPDFdrawingstreams independentlydecoded",
+  "results": {
+    "Q0": {
+      "verdict": "REVISE",
+      "reason": "source width160; actualPDF/PNG150"
+    },
+    "Q1": {
+      "verdict": "PASS",
+      "reason": "sourcegeometry/fixture/operations/dimensions retained; decoration omitted"
+    },
+    "Q2": {
+      "verdict": "REVISE",
+      "reason": "operationapex/terminalfragmentsmissing"
+    },
+    "Q3": {
+      "verdict": "REVISE",
+      "reason": "physicalcabinet topedge missing"
+    },
+    "Q4": {
+      "verdict": "REVISE",
+      "reason": "functionalbasinmissing"
+    }
+  },
+  "cases": 5,
+  "expected_matches": 5,
+  "scope": "instruction/contract/source-to-export decisiontransfer, not newlycertifiedcustomergeometry, universalreconstructionorproductionrenderengine",
+  "files": {
+    "Q0.pdf": "a8585460e7a2330e7cea1e067a8d7256eff16a1af168f1d1ccf094adaf5f84e2",
+    "Q0.png": "99472110a244ec90595650daa3f827d750d4104017a692730405e2fb44fc45dd",
+    "Q1.pdf": "10f4d88a55e6721775c2d3e7d14daad4aff0b9e88d00ca91347f7d060dfe4336",
+    "Q1.png": "4a612c0b44188ef7b24569457236a6c8abe8ef872ebc53f99326114eecdd8cc1",
+    "Q2.pdf": "c8c3e5009627e8ed44467bcad8d0ce65c82f572cbcd87007a9d949003bb7a0b4",
+    "Q2.png": "822c47e7cf687b508a819bf365b48c96e847514b8023147ec33ac28444ff2e90",
+    "Q3.pdf": "1ba18b808eaf01da353c53df0b6b29b0672d99747d0bb9c696cc307c2e9046ab",
+    "Q3.png": "c1da2d968dbea94ec4d5ebeebd998527f57018f94897d2bc1471db0c6420fa16",
+    "Q4.pdf": "51018217f22e07b61278d9e04b4f7b32a673b043faf2a579f40ce4fb4ab735c9",
+    "Q4.png": "7702be4f4603877ccc1261c7cb0646ea108935989d278888db69da0ac1a13f01",
+    "source.json": "c821ca1ef551a937e4cce56c47c086501a68efe56d1aeb7c492f756cc661b34a",
+    "source.pdf": "fe6fe85cb25ea77e19796a7930e9402dbeb3588b2e3fbd2cbc6f699e8ca3d403",
+    "source.png": "f673a490da46559c75241da74de73ae5384e5899a595a2be2ab39073650293c1"
+  }
+}
