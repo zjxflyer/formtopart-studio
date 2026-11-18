@@ -12,12 +12,6 @@ Turn customer PDF drawings into a reviewable design workspace for interiors, cab
 
 **[Windows app](https://github.com/zjxflyer/formtopart-studio/releases/latest/download/FormToPart-Studio.exe)** · **[Skills ZIP](https://github.com/zjxflyer/formtopart-studio/releases/latest/download/Codex-Drawing-Workflow-v7.zip)** · **[Source ZIP](https://github.com/zjxflyer/formtopart-studio/releases/latest/download/FormToPart-Studio-v0.8.29-Source.zip)** · **[Workflow handbook](Codex-skills/handbook/Drawing-Workflow-Handbook.pdf)**
 
-<a href="https://github.com/user-attachments/assets/0d0b28b5-ad4d-494a-b571-b616db186abf">
-  <img src="docs/images/product-overview.jpg" alt="Watch the FormToPart Studio product overview: PDF drawings, design review, 3D and cutting lists" width="960">
-</a>
-
-**54-second product overview** · 1920 × 1080 · **[Download video](https://github.com/zjxflyer/formtopart-studio/releases/latest/download/FormToPart-Studio-Product-Overview.mp4)**
-
 </div>
 
 https://github.com/user-attachments/assets/0d0b28b5-ad4d-494a-b571-b616db186abf
@@ -53,7 +47,7 @@ FormToPart Studio brings source PDFs, 2D drawings, editable 3D models, board mat
 | **[Codex skills ZIP](https://github.com/zjxflyer/formtopart-studio/releases/latest/download/Codex-Drawing-Workflow-v7.zip)** | Use the six drawing skills in Codex with your own source files. See [installation below](#start-with-the-skills). |
 | **[Source ZIP](https://github.com/zjxflyer/formtopart-studio/releases/latest/download/FormToPart-Studio-v0.8.29-Source.zip)** | Inspect the complete published source or build Studio on Windows. See [build instructions](#build-on-windows) and [licensing](#review-scope-attribution-and-licensing). |
 
-See **[all releases and assets](https://github.com/zjxflyer/formtopart-studio/releases)** for release notes, checksums and the downloadable product video.
+See **[all releases and assets](https://github.com/zjxflyer/formtopart-studio/releases)** for release notes and checksums.
 
 ## Try the Windows app
 
