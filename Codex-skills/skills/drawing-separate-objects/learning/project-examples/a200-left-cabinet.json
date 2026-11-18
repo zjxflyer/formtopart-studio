@@ -1,0 +1,19 @@
+{
+  "project": "A200 Front Unit Kitchen 2",
+  "example_type": "standalone_recursive_assembly",
+  "selection": "left cabinet with side members, top rail, faces, divider, symbols, and dimensions; plinth and context excluded",
+  "useful_behavior": [
+    "retain the lower-only physical divider",
+    "preserve three owner-bound operation symbols",
+    "translate dimensions to local coordinates",
+    "derive an overall height from a verified vertical chain"
+  ],
+  "project_facts_not_shared_rules": [
+    "36-inch width",
+    "112-inch extracted height",
+    "WD01 material code",
+    "A200 component IDs and symbol orientations"
+  ],
+  "verification_scope": "one standalone cabinet output; not forward-tested on another customer design"
+}
+
