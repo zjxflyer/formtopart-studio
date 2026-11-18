@@ -1,0 +1,6 @@
+interface:
+  display_name: "Drawing Workflow"
+  short_description: "Create, independently review and improve drawing projects"
+  default_prompt: "Use $drawing-workflow to create and independently review this drawing project with clear progress and verified learning."
+policy:
+  allow_implicit_invocation: true
