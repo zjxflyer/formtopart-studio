@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "project_id": "customer-example",
+  "workflow_version": "Effective Version 7",
+  "sources": [{"path": "sources/customer.pdf"}],
+  "sheets": ["K10", "K2", "R7"],
+  "order": "natural",
+  "output_dir": "results",
+  "model": {"name": "gpt-6.1-sol", "effort": "medium", "fast_requested": false},
+  "policy": {
+    "phase1_rounds": 2,
+    "initial_rounds": 2,
+    "manual_issue_passes": 1,
+    "full_review_rounds": 2
+  }
+}
